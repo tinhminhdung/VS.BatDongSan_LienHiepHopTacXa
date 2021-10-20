@@ -1,0 +1,41 @@
+﻿<table cellpadding="0" cellspacing="0" class="dcart scoll" width="100%" bgcolor="#FFFFFF" bordercolor="#C3C3C3">
+    <tr class="procart">
+        <td align="left"><strong>STT</strong></td>
+        <td align="left"><strong>@Commond.label("l_images") </strong></td>
+        <td align="center"><strong>@Commond.label("lt_firstname") </strong></td>
+        <td align="center"><strong>@Commond.label("lprice") </strong></td>
+        <td align="center"><strong>@Commond.label("lquantity") </strong></td>
+        <td align="center"><strong>@Commond.label("l_tomoney") </strong></td>
+        <td align="right"><strong>[@Commond.label("ldelete")]</strong></td>
+    </tr>
+    @{
+        if (Session["cart"] != null)
+        {
+            System.Data.DataTable dtcart = (System.Data.DataTable)Session["cart"];
+            if (dtcart.Rows.Count > 0)
+            {
+                for (int i = 0; i < dtcart.Rows.Count; i++)
+                {
+                    <tr style="text-align:center">
+                        <td height="30" align="center" class="TitleItem">
+                            <asp:Label ID="lb_tt" runat="server"></asp:Label>
+                        </td>
+                        <td align="left" class="TitleItem">
+                            <img src="@Html.Raw(dtcart.Rows[i]["vimg"].ToString())" style="width: 77px; height: auto; border: solid 1px #d7d7d7" />
+                        </td>
+                        <td align="center" class="TitleItem"><strong>@dtcart.Rows[i]["Name"].ToString()</strong></td>
+                        <td align="center" class="TitleItem">@AllQuery.MorePro.FormatMoney_Cart(dtcart.Rows[i]["Price"].ToString()) </td>
+                        <td align="center" class="TitleItem" style="text-align:center">
+                            @Html.Hidden("Hidden_ipid", @dtcart.Rows[i]["PID"].ToString())
+                            <input class="form-control input-sm txtQuantity" data-id="@dtcart.Rows[i]["PID"].ToString()" style="margin: auto !important; width: 50px; padding: 0px; margin: 0px; text-align: center; " type="text" value="@dtcart.Rows[i]["Quantity"].ToString()">
+                        </td>
+                        <td align="center" class="TitleItem">@AllQuery.MorePro.FormatMoney_Cart(dtcart.Rows[i]["Money"].ToString()) </td>
+                        <td align="center">
+                            <a class="xoasanpham" onclick="return confirm('Bạn muốn xóa sản phẩm ?')" href="/Cart/XoaGioHang/@dtcart.Rows[i]["PID"].ToString()">[Xóa]</a>
+                        </td>
+                    </tr>
+                }
+            }
+        }
+    }
+</table>

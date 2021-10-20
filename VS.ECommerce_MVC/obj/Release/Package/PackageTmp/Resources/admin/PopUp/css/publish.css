@@ -1,0 +1,38 @@
+﻿.dialog1
+{
+    display: block;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .80;
+    z-index: 9999;
+}
+.dialog1 .dlConent
+{
+    min-width: 375px;
+    min-height: 300px;
+    position: relative;
+    top: 135px;
+    text-align: left;
+}
+.dialog1 .dlConent a.dialogClose
+{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    background: url("../Images/closeX.png") no-repeat 0 0;
+}
+.dialog1 .dlConent .dlBL
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px #000000;
+    text-align: left;
+}
+

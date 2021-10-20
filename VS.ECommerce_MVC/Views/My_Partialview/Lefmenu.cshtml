@@ -1,0 +1,24 @@
+﻿<div id="col-62420363" class="col medium-12 small-12 large-3">
+    <div class="col-inner">
+        <ul class="sidebar-wrapper ul-reset widget-area">
+            @{Html.RenderAction("TinhThanhMenu", "My_Partialview");}
+            <aside id="block_widget-2" class="widget block_widget">
+                <span class="widget-title">
+                    <span>Tư vấn</span>
+                </span>
+                <div class="row mh-vertical-blog large-columns-1 medium-columns-1 small-columns-1 row-xsmall">
+                    @Html.Raw(ViewBag.TuVan)
+                </div>
+            </aside>
+            <aside id="block_widget-3" class="widget block_widget">
+                <span class="widget-title">
+                    <span>Phong thủy</span>
+                </span>
+                <div class="row mh-vertical-blog large-columns-1 medium-columns-1 small-columns-1 row-xsmall">
+                    @Html.Raw(ViewBag.PhongThuy)
+                </div>
+            </aside>
+            @Html.Raw(Advertisings.Ad_vertisings.QuangCao("1"))
+        </ul>
+    </div>
+</div>

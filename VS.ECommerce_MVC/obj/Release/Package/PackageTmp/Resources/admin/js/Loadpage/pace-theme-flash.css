@@ -1,0 +1,31 @@
+.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.pace-inactive{display:none}
+.pace .pace-progress{background:#fcab0f;position:fixed;z-index:2000;top:0;left:0;height:2px;-webkit-transition:width 1s;-moz-transition:width 1s;-o-transition:width 1s;transition:width 1s}
+.pace .pace-progress-inner{display:block;position:absolute;right:0;width:100px;height:100%;box-shadow:0 0 10px #fcab0f,0 0 5px #fcab0f;opacity:1;-webkit-transform:rotate(3deg) translate(0px,-4px);-moz-transform:rotate(3deg) translate(0px,-4px);-ms-transform:rotate(3deg) translate(0px,-4px);-o-transform:rotate(3deg) translate(0px,-4px);transform:rotate(3deg) translate(0px,-4px)}
+.pace .pace-activity{display:block;position:fixed;z-index:2000;top:15px;right:15px;width:14px;height:14px;border:solid 2px transparent;border-top-color:#fcab0f;border-left-color:#fcab0f;border-radius:10px;-webkit-animation:pace-spinner 400ms linear infinite;-moz-animation:pace-spinner 400ms linear infinite;-ms-animation:pace-spinner 400ms linear infinite;-o-animation:pace-spinner 400ms linear infinite;animation:pace-spinner 400ms linear infinite}
+#Ajaxloading{font-size: 16px;width: 110px;height: 5em;position: fixed;z-index: 3000;left: 0px;right: 0px;top: 50%;bottom: 0px;margin: 0px auto;margin-top: -100px;}
+#Ajaxloading  .inner {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);font-size: 12px;text-align: center;padding: 14px 0px;border-radius: 6px !important;color: #fff;}
+#Ajaxloading .inner p {margin:8px 0 0;}
+
+
+
+@-webkit-keyframes pace-spinner {
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-moz-keyframes pace-spinner {
+0%{-moz-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-o-keyframes pace-spinner {
+0%{-o-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-o-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-ms-keyframes pace-spinner {
+0%{-ms-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-ms-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes pace-spinner {
+0%{transform:rotate(0deg);transform:rotate(0deg)}
+100%{transform:rotate(360deg);transform:rotate(360deg)}
+}

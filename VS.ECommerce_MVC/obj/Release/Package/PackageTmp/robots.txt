@@ -1,0 +1,9 @@
+User-agent: Mediapartners-Google
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Twitterbot
+User-agent: Facebot
+User-agent: *
+Disallow: /admin.aspx
+Allow: /
+Sitemap: /sitemap.xml

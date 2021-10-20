@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using VS.ECommerce_MVC
+
+@model List<product>
+<div class="container">
+    <h1 class="title-head"><span>Danh sách tin bất động sản</span></h1>
+    <div class="row">
+        <div class="page-login margin-bottom-30">
+            <div id="login">
+                <main id="main" class="">
+
+                    <div class="row row-small">
+                        <div class="col medium-12 small-12 large-12">
+                            <div class="col-inner">
+                                <table class="table table-list-post">
+                                    <thead>
+                                        <tr>
+                                            <th class="hide-for-medium d-sm-table-cell">STT</th>
+                                            <th class="hide-for-small d-sm-table-cell mh-col-thumbnail">Hình ảnh</th>
+                                            <th style="width: 17.5%;">Tiêu đề</th>
+                                            <th class="hide-for-medium d-lg-table-cell" style="width: 10%;">Nhu cầu</th>
+                                            <th class="hide-for-medium d-lg-table-cell" style="width: 10%;">Loại nhà đất</th>
+                                            <th class="hide-for-medium d-lg-table-cell" style="width: 10%;">Địa chỉ</th>
+                                            <th class="hide-for-medium d-lg-table-cell" style="width: 10%;">Diện tích</th>
+                                            <th class="hide-for-medium d-lg-table-cell" style="width: 10%;">Giá</th>
+                                            <th class="text-center" style="width: 10%;">Trạng thái</th>
+                                            <th class="text-center" style="width: 10%;">Hành động</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @{
+                                            int i = 1;
+                                            foreach (var item in Model)
+                                            {
+                                                string link = "san-pham/" + item.TangName + ".html";
+                                                <tr>
+                                                    <td class="hide-for-medium d-sm-table-cell" style=" text-align:center">@i</td>
+                                                    <td class="hide-for-small d-sm-table-cell mh-col-thumbnail">
+                                                        <a href="@link">
+                                                            <img class="rounded" style="width: 100px !important;height: 50px !important;object-fit: cover;" src="@item.ImagesSmall" alt="@item.Name">
+                                                        </a>
+                                                    </td>
+                                                    <td class="re-name">
+                                                        <a href="@link"><strong>@item.Name</strong></a>
+                                                    </td>
+                                                    <td class="hide-for-medium d-lg-table-cell">
+                                                        @Html.Raw(Commond.ShowNhuCau(item.icid.ToString()))
+                                                    </td>
+                                                    <td class="hide-for-medium d-lg-table-cell">
+                                                        @Html.Raw(Commond.ShowDanhMuc(item.icid.ToString()))
+                                                    </td>
+                                                    <td class="hide-for-medium d-lg-table-cell">
+                                                        @item.DiaChi
+                                                    </td>
+                                                    <td class="hide-for-medium d-lg-table-cell">@item.DienTich m<sup>2</sup></td>
+                                                    <td class="hide-for-medium d-lg-table-cell">@Html.Raw(AllQuery.MorePro.FormatMoney_NO(item.Price.ToString())) </td>
+                                                    <td class="text-center">
+                                                        @Html.Raw(MoreAll.MoreAll.Duyet(item.Status.ToString()))
+                                                    </td>
+                                                    <td class="text-center action-post">
+                                                        <a class="action" href="/edit-dang-tin.html?id=@item.ipid" title="Sửa">
+                                                            <i class="far fa-edit"></i>
+                                                        </a>
+                                                        <a class="action" href="/XoaBaiViet.html?deleteid=@item.ipid" title="Xóa">
+                                                            <i class="far fa-times-circle"></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                i++;
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                                @Html.Raw(ViewBag.ltpage)
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>

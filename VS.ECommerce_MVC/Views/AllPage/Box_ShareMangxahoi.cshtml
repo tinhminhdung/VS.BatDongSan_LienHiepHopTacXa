@@ -1,0 +1,18 @@
+﻿@{
+    string Url = "";
+    string ssl = "http://";
+    if (Commond.Setting("SSL").Equals("1"))
+    {
+        ssl = "https://";
+    }
+    Url = ssl + Request.Url.Host + Request.RawUrl.ToString();
+}
+<link rel="stylesheet" href="/Resources/css/Share/social-likes_birman.css">
+<script src="/Resources/css/Share/social-likes.min.js"></script>
+<div class="Box_Share">
+    <div style="float:left;" class="social-likes" data-url="@Url">
+        <div class="facebook" title="Share link on Facebook">Facebook</div>
+        <div class="twitter" title="twitter">Twitter</div>
+        <div class="plusone" title="Share link on Google+">Google+</div>
+    </div>
+</div>

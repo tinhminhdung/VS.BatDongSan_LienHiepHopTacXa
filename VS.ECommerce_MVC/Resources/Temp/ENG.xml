@@ -1,0 +1,738 @@
+<?xml version="1.0" standalone="yes"?>
+<template>
+  <item>
+    <ID>l_home</ID>
+    <VALUE>Home</VALUE>
+  </item>
+  <item>
+    <ID>l_contact</ID>
+    <VALUE>Contact Us</VALUE>
+  </item>
+  <item>
+    <ID>l_search</ID>
+    <VALUE>Search</VALUE>
+  </item>
+  <item>
+    <ID>l_gotop</ID>
+   <VALUE> Back to top</VALUE>
+  </item>
+  <item>
+    <ID>l_language</ID>
+    <VALUE>Language</VALUE>
+  </item>
+  <item>
+    <ID>l_news</ID>
+    <VALUE>News</VALUE>
+  </item>
+  <item>
+    <ID>l_view</ID>
+    <VALUE>View</VALUE>
+  </item>
+  <item>
+    <ID>l_name</ID>
+    <VALUE>Full name</VALUE>
+  </item>
+  <item>
+    <ID>l_email</ID>
+    <VALUE>Email</VALUE>
+  </item>
+  <item>
+    <ID>l_address</ID>
+    <VALUE>Address</VALUE>
+  </item>
+  <item>
+    <ID>l_phone</ID>
+    <VALUE>Phone</VALUE>
+  </item>
+  <item>
+    <ID>l_mobile</ID>
+    <VALUE>Mobile</VALUE>
+  </item>
+  <item>
+    <ID>l_title</ID>
+    <VALUE>Title</VALUE>
+  </item>
+  <item>
+    <ID>l_content</ID>
+    <VALUE>Content</VALUE>
+  </item>
+  <item>
+    <ID>l_send</ID>
+    <VALUE>Send</VALUE>
+  </item>
+  <item>
+    <ID>l_cancel</ID>
+    <VALUE>Cancel</VALUE>
+  </item>
+  <item>
+    <ID>l_checkdata</ID>
+    <VALUE>Please check your data</VALUE>
+  </item>
+  <item>
+    <ID>l_checkuserpass</ID>
+    <VALUE>Please check your username or password</VALUE>
+  </item>
+  <item>
+    <ID>l_postsucess</ID>
+    <VALUE>Send success, we will reply soon</VALUE>
+  </item>
+  <item>
+    <ID>l_continue</ID>
+    <VALUE>Continue</VALUE>
+  </item>
+  <item>
+    <ID>l_update</ID>
+    <VALUE>Updated</VALUE>
+  </item>
+  <item>
+    <ID>l_close</ID>
+    <VALUE>Close</VALUE>
+  </item>
+  <item>
+    <ID>l_news_event</ID>
+    <VALUE>News and Events</VALUE>
+  </item>
+  <item>
+    <ID>l_news_othernews</ID>
+    <VALUE>Other news</VALUE>
+  </item>
+  <item>
+    <ID>l_News_Relatednews</ID>
+    <VALUE>Related news</VALUE>
+  </item>
+  <item>
+    <ID>lviewnext</ID>
+    <VALUE>Read more</VALUE>
+  </item>
+  <item>
+    <ID>lnext</ID>
+    <VALUE>After</VALUE>
+  </item>
+  <item>
+    <ID>lprevious</ID>
+    <VALUE>Before</VALUE>
+  </item>
+  <item>
+    <ID>lproducts</ID>
+    <VALUE>Products</VALUE>
+  </item>
+  <item>
+    <ID>lt_cartbox</ID>
+    <VALUE>Your cart</VALUE>
+  </item>
+  <item>
+    <ID>ltotalVALUE</ID>
+    <VALUE>TotalVALUE</VALUE>
+  </item>
+  <item>
+    <ID>lprice</ID>
+    <VALUE>Price</VALUE>
+  </item>
+  <item>
+    <ID>lnewprice</ID>
+    <VALUE>New price</VALUE>
+  </item>
+  <item>
+    <ID>loldprice</ID>
+    <VALUE>Old price</VALUE>
+  </item>
+  <item>
+    <ID>lquantity</ID>
+    <VALUE>Amount</VALUE>
+  </item>
+  <item>
+    <ID>ltotal</ID>
+    <VALUE>Total</VALUE>
+  </item>
+  <item>
+    <ID>ldeleteselectedproduct</ID>
+    <VALUE>Remove this product?</VALUE>
+  </item>
+  <item>
+    <ID>lshoppingcancel</ID>
+    <VALUE>Remove cart?</VALUE>
+  </item>
+  <item>
+    <ID>lupdate</ID>
+    <VALUE>Updated</VALUE>
+  </item>
+  <item>
+    <ID>ldelete</ID>
+    <VALUE>Delete</VALUE>
+  </item>
+    <item>
+    <ID>l_register</ID>
+    <VALUE>Register</VALUE>
+  </item>
+  <item>
+    <ID>l_username</ID>
+    <VALUE>Username</VALUE>
+  </item>
+  <item>
+    <ID>lt_fullname</ID>
+    <VALUE>Full name</VALUE>
+  </item>
+  <item>
+    <ID>lt_lastname</ID>
+    <VALUE>They</VALUE>
+  </item>
+  <item>
+    <ID>lt_firstname</ID>
+    <VALUE>Name</VALUE>
+  </item>
+  <item>
+    <ID>lt_membername</ID>
+    <VALUE>Member name</VALUE>
+  </item>
+  <item>
+    <ID>lt_password</ID>
+    <VALUE>Password</VALUE>
+  </item>
+  <item>
+    <ID>lt_checkpassword</ID>
+    <VALUE>Confirm Password</VALUE>
+  </item>
+  <item>
+    <ID>lt_gender</ID>
+    <VALUE>Sex</VALUE>
+  </item>
+  <item>
+    <ID>lt_birthday</ID>
+    <VALUE>Date of birth</VALUE>
+  </item>
+  <item>
+    <ID>lt_day</ID>
+    <VALUE>Day</VALUE>
+  </item>
+  <item>
+    <ID>lt_month</ID>
+    <VALUE>Month</VALUE>
+  </item>
+  <item>
+    <ID>lt_year</ID>
+    <VALUE>Year</VALUE>
+  </item>
+  <item>
+    <ID>lt_invalIDbirthday</ID>
+    <VALUE>Invalid birthday</VALUE>
+  </item>
+  <item>
+    <ID>lt_invalIDemail</ID>
+    <VALUE>Email is invalid</VALUE>
+  </item>
+  <item>
+    <ID>lt_invalIDcheckemail</ID>
+    <VALUE>Invalid confirmation email</VALUE>
+  </item>
+  <item>
+    <ID>lt_changepassword</ID>
+    <VALUE>Change Password</VALUE>
+  </item>
+  <item>
+    <ID>lt_joindate</ID>
+    <VALUE>Join Date</VALUE>
+  </item>
+  <item>
+    <ID>lt_lastvisited</ID>
+    <VALUE>Last logged in</VALUE>
+  </item>
+  <item>
+    <ID>lt_changeinformation</ID>
+    <VALUE>Change information</VALUE>
+  </item>
+  <item>
+    <ID>lt_changeinfor_easy</ID>
+    <VALUE>Change password. Please enter a member name</VALUE>
+  </item>
+  <item>
+    <ID>lt_nextstep</ID>
+    <VALUE>Next step</VALUE>
+  </item>
+  <item>
+    <ID>lt_updatenewpassword</ID>
+    <VALUE>Update new password</VALUE>
+  </item>
+  <item>
+    <ID>lt_oldpassword</ID>
+    <VALUE>Old password</VALUE>
+  </item>
+  <item>
+    <ID>lt_newpassword</ID>
+    <VALUE>New password</VALUE>
+  </item>
+  <item>
+    <ID>lt_again</ID>
+    <VALUE>again</VALUE>
+  </item>
+  <item>
+    <ID>lt_finish</ID>
+    <VALUE>Finished</VALUE>
+  </item>
+  <item>
+    <ID>lt_updatesucessfull</ID>
+    <VALUE>Successful update</VALUE>
+  </item>
+  <item>
+    <ID>lt_checkyourpassword</ID>
+    <VALUE>Check your password</VALUE>
+  </item>
+  <item>
+    <ID>lt_display</ID>
+    <VALUE>Display</VALUE>
+  </item>
+  <item>
+    <ID>lt_goback</ID>
+    <VALUE>Back</VALUE>
+  </item>
+  <item>
+    <ID>lt_regetpassword</ID>
+    <VALUE>Get your password back.</VALUE>
+  </item>
+  <item>
+    <ID>lt_inputusername</ID>
+    <VALUE>Enter your username</VALUE>
+  </item>
+  <item>
+    <ID>lt_securityinformation</ID>
+    <VALUE>Confidential Information</VALUE>
+  </item>
+  <item>
+    <ID>lt_exit</ID>
+    <VALUE>Exit</VALUE>
+  </item>
+  
+  <item>
+    <ID>lt_passwordwassenttoyourmail</ID>
+    <VALUE>Password has been sent to your email</VALUE>
+  </item>
+  <item>
+    <ID>lt_viewall</ID>
+    <VALUE>View all</VALUE>
+  </item>
+  <item>
+    <ID>lt_key</ID>
+    <VALUE>Keywords</VALUE>
+  </item>
+  <item>
+    <ID>lt_name</ID>
+    <VALUE>Name</VALUE>
+  </item>
+  <item>
+    <ID>l_datesend</ID>
+    <VALUE>Posted date</VALUE>
+  </item>
+  <item>
+    <ID>l_orderform</ID>
+    <VALUE>Orders</VALUE>
+  </item>
+  <item>
+    <ID>l_viewdetail</ID>
+    <VALUE>See details</VALUE>
+  </item>
+  <item>
+    <ID>l_iviews</ID>
+    <VALUE>Views</VALUE>
+  </item>
+  <item>
+    <ID>l_oldprice</ID>
+    <VALUE>Old price</VALUE>
+  </item>
+  <item>
+    <ID>l_curentprice</ID>
+    <VALUE>Current Price</VALUE>
+  </item>
+  <item>
+    <ID>l_productcontent</ID>
+   <VALUE>Product details</VALUE>
+  </item>
+  <item>
+    <ID>l_productdesc</ID>
+    <VALUE>Product Description</VALUE>
+  </item>
+  <item>
+    <ID>l_producttitle</ID>
+    <VALUE>Product Name</VALUE>
+  </item>
+  <item>
+    <ID>l_productID</ID>
+    <VALUE>Product Code</VALUE>
+  </item>
+  <item>
+    <ID>l_productcategories</ID>
+    <VALUE>Product Classification</VALUE>
+  </item>
+  <item>
+    <ID>l_productgroups</ID>
+    <VALUE>Product Group</VALUE>
+  </item>
+  <item>
+    <ID>l_prdnews</ID>
+    <VALUE>New Products</VALUE>
+  </item>
+  <item>
+    <ID>l_prdselloff</ID>
+    <VALUE>Discountitems</VALUE>
+  </item>
+  <item>
+    <ID>l_prdbestsell</ID>
+    <VALUE>Best Selling Products</VALUE>
+  </item>
+  <item>
+    <ID>l_prdsale</ID>
+    <VALUE>Promotional Products</VALUE>
+  </item>
+  <item>
+    <ID>l_orderdetail</ID>
+    <VALUE>DETAILS OF GOODS</VALUE>
+  </item>
+  <item>
+    <ID>l_tomoney</ID>
+    <VALUE>Amount</VALUE>
+  </item>
+  <item>
+    <ID>l_ID</ID>
+    <VALUE>Code</VALUE>
+  </item>
+  <item>
+    <ID>l_supportonline</ID>
+    <VALUE>Online Support</VALUE>
+  </item>
+  <item>
+    <ID>l_sendcomment</ID>
+    <VALUE>Send comments</VALUE>
+  </item>
+  <item>
+    <ID>l_redo</ID>
+    <VALUE>Redo</VALUE>
+  </item>
+  <item>
+    <ID>l_sendcomments</ID>
+    <VALUE>Send feedback</VALUE>
+  </item>
+  <item>
+    <ID>l_sendforfriend</ID>
+    <VALUE>Send to friend</VALUE>
+  </item>
+  <item>
+    <ID>lt_invalIDcontent</ID>
+    <VALUE>Illegal content</VALUE>
+  </item>
+  <item>
+    <ID>lt_invalIDsendername</ID>
+    <VALUE>The sender's name is invalid</VALUE>
+  </item>
+  <item>
+    <ID>l_have</ID>
+    <VALUE>Yes</VALUE>
+  </item>
+  <item>
+    <ID>AboutUs</ID>
+    <VALUE>Introduction</VALUE>
+  </item>
+  <item>
+    <ID>Services</ID>
+    <VALUE>Services</VALUE>
+  </item>
+  <item>
+    <ID>I_dulieuchuadccapnhat</ID>
+    <VALUE>The data has not been updated</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Canceled_order</ID>
+    <VALUE>
+      Order canceled!
+      Thank you for using the service.
+    </VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Order_successful</ID>
+    <VALUE>
+      Order Success !.
+      Thank you for choosing and using the product.
+      We will contact you through the information provided
+    </VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Orders_exist</ID>
+    <VALUE>
+      This order does not exist !.
+      Thank you for using the service.
+    </VALUE>
+  </item>
+  <item>
+    <ID>l_produc_our_place</ID>
+    <VALUE>
+      Thank you to order!
+      Your order has been archived and processed within 24 hours.
+    </VALUE>
+  </item>
+  <item>
+    <ID>Not_empty_cart</ID>
+    <VALUE>
+      There are no shopping carts
+    </VALUE>
+  </item>
+  <item>
+    <ID>Giohang</ID>
+    <VALUE>Shopping Cart</VALUE>
+  </item>
+  <item>
+    <ID>lienhe2</ID>
+    <VALUE>All inquiries, please feel free to send us an email, thank you!</VALUE>
+  </item>
+  <item>
+    <ID>ngaycapnhat</ID>
+    <VALUE>Updated date</VALUE>
+  </item>
+  <item>
+    <ID>cactintieptheo</ID>
+    <VALUE>Next news</VALUE>
+  </item>
+  <item>
+    <ID>cactintruoc</ID>
+    <VALUE>Previous articles</VALUE>
+  </item>
+  <item>
+    <ID>Sua</ID>
+    <VALUE>Edit</VALUE>
+  </item>
+  <item>
+    <ID>tieptucmuahang</ID>
+    <VALUE>Continue to purchase</VALUE>
+  </item>
+  <item>
+    <ID>datdonhang</ID>
+    <VALUE>Order Orders</VALUE>
+  </item>
+  <item>
+    <ID>Buy</ID>
+    <VALUE>Buy</VALUE>
+  </item>
+  <item>
+    <ID>Themvaogiohang</ID>
+    <VALUE>Add to Shopping Cart</VALUE>
+  </item>
+  <item>
+    <ID>timkiemsanpham</ID>
+    <VALUE>Product search</VALUE>
+  </item>
+  <item>
+    <ID>celebrity</ID>
+    <VALUE>Category</VALUE>
+  </item>
+  <item>
+    <ID>mucgia</ID>
+    <VALUE>Rates</VALUE>
+  </item>
+  <item>
+    <ID>heart</ID>
+    <VALUE>Search</VALUE>
+  </item>
+  <item>
+    <ID>gui</ID>
+    <VALUE>Send</VALUE>
+  </item>
+  <item>
+    <ID>danhmucspham</ID>
+    <VALUE>Product catalog</VALUE>
+  </item>
+  <item>
+    <ID>HotProducts</ID>
+    <VALUE>Featured Products</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_contact_information</ID>
+    <VALUE>Please enter your contact information to proceed to order!</VALUE>
+  </item>
+  <item>
+    <ID>Thank_you_roducts</ID>
+    <VALUE>Thank you for choosing our products</VALUE>
+  </item>
+  <item>
+    <ID>lt_updatepass</ID>
+    <VALUE>Password update</VALUE>
+  </item>
+  <item>
+    <ID>Thuvienanh</ID>
+    <VALUE>Gallery</VALUE>
+  </item>
+  <item>
+    <ID>ThuvienvID</ID>
+    <VALUE>Library vIDeo</VALUE>
+  </item>
+  <item>
+    <ID>Thanhvien</ID>
+    <VALUE>Members</VALUE>
+  </item>
+  <item>
+    <ID>ttthanhvien</ID>
+    <VALUE>Member Information</VALUE>
+  </item>
+  <item>
+    <ID>capthanhvien</ID>
+    <VALUE>Updating member information</VALUE>
+  </item>
+  <item>
+    <ID>thaydoimk</ID>
+    <VALUE>Change Password</VALUE>
+  </item>
+  <item>
+    <ID>FirstText</ID>
+    <VALUE>First page</VALUE>
+  </item>
+  <item>
+    <ID>LastText</ID>
+    <VALUE>Last page</VALUE>
+  </item>
+  <item>
+    <ID>l_images</ID>
+    <VALUE>Image</VALUE>
+  </item>
+
+  <item>
+    <ID>giohang1</ID>
+    <VALUE>Your cart is currently empty.</VALUE>
+  </item>
+  <item>
+    <ID>giohang2</ID>
+    <VALUE>Get your hands on your favorite products quickly</VALUE>
+  </item>
+  <item>
+    <ID>giohang3</ID>
+    <VALUE>Continue shopping</VALUE>
+  </item>
+  <item>
+    <ID>giohang4</ID>
+    <VALUE>Customer Information</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_sder</ID>
+    <VALUE>Order</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Edit_Cart</ID>
+    <VALUE>Fix cart</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Continue_Shopping</ID>
+    <VALUE>Continue to purchase</VALUE>
+  </item>
+  <item>
+    <ID>l_produc_Cancel_Order</ID>
+    <VALUE>Cancel</VALUE>
+  </item>
+  <item>
+    <ID>Dangxuly</ID>
+    <VALUE>Processing</VALUE>
+  </item>
+
+  <item>
+    <ID>matkhau1</ID>
+    <VALUE>Invalid password</VALUE>
+  </item>
+  <item>
+    <ID>matkhau2</ID>
+    <VALUE>New password is invalid</VALUE>
+  </item>
+  <item>
+    <ID>matkhau3</ID>
+    <VALUE>The current password is incorrect</VALUE>
+  </item>
+  <item>
+    <ID>matkhau4</ID>
+    <VALUE>Password changed</VALUE>
+  </item>
+  
+  <item>
+    <ID>senemail1</ID>
+    <VALUE>New password updates have been sent to your email address.</VALUE>
+  </item>
+  <item>
+    <ID>senemail2</ID>
+    <VALUE>Please check your email for password.</VALUE>
+  </item>
+  <item>
+    <ID>senemail3</ID>
+    <VALUE>Sincere thanks</VALUE>
+  </item>
+  <item>
+    <ID>senemail4</ID>
+    <VALUE>Password information has been sent to your email address</VALUE>
+  </item>
+  <item>
+    <ID>senemail5</ID>
+    <VALUE>Please check your email again</VALUE>
+  </item>
+  <item>
+    <ID>taotkmoi</ID>
+    <VALUE>Create new account</VALUE>
+  </item>
+  <item>
+    <ID>Quenmk</ID>
+    <VALUE>Forgot password</VALUE>
+  </item>
+  <item>
+    <ID>login1</ID>
+    <VALUE>The username or password is incorrect</VALUE>
+  </item>
+  <item>
+    <ID>login2</ID>
+    <VALUE>Account is incorrect or locked !!!</VALUE>
+  </item>
+  <item>
+    <ID>login3</ID>
+    <VALUE>Successful registration</VALUE>
+  </item>
+  <item>
+    <ID>login4</ID>
+    <VALUE>You may use your registration information to use the features of our website.</VALUE>
+  </item>
+  <item>
+    <ID>login5</ID>
+    <VALUE>The username already exists. Please select another account</VALUE>
+  </item>
+  <item>
+    <ID>login6</ID>
+    <VALUE>Email provided has been used by another account</VALUE>
+  </item>
+  <item>
+    <ID>login7</ID>
+    <VALUE>Please enter your username without spaces and spaces</VALUE>
+  </item>
+  <item>
+    <ID>login8</ID>
+    <VALUE>Enter email address</VALUE>
+  </item>
+  <item>
+    <ID>login9</ID>
+    <VALUE>Retrieve Password</VALUE>
+  </item>
+  <item>
+    <ID>login10</ID>
+        <VALUE> Your email does not exist in the system</VALUE>
+  </item>
+  <item>
+    <ID>login11</ID>
+    <VALUE>Update password</VALUE>
+  </item>
+  <item>
+    <ID>login12</ID>
+    <VALUE>Thank you for registering at our website!</VALUE>
+  </item>
+  <item>
+    <ID>login13</ID>
+    <VALUE>Please click on the following link to perform the password update.</VALUE>
+  </item>
+  <item>
+    <ID>login14</ID>
+    <VALUE>Confirmation email has been sent to your registered email account. Please check Email to confirm</VALUE>
+  </item>
+      <item>
+    <ID>lproductsincart</ID>
+    <VALUE>Sản phẩm trong giỏ hàng</VALUE>
+  </item>
+  <item>
+    <ID>lbsentlienhe</ID>
+    <VALUE>Sent contact</VALUE>
+  </item>
+</template>

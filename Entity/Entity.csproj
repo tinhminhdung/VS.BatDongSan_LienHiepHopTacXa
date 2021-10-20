@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EBA4919-34A5-404A-9141-D22AD05841DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUser\AdminUser.cs" />
+    <Compile Include="Advertisings\Advertisings.cs" />
+    <Compile Include="Album\Album.cs" />
+    <Compile Include="Album\Album_Images.cs" />
+    <Compile Include="Dichvu\Dichvu.cs" />
+    <Compile Include="GioiThieu\GioiThieu.cs" />
+    <Compile Include="LichSuRutTien\LichSuRutTien.cs" />
+    <Compile Include="LoiNhuanMuaBan\LoiNhuanMuaBan.cs" />
+    <Compile Include="ModulControls\ModulControls.cs" />
+    <Compile Include="Nfooter\News.cs" />
+    <Compile Include="Faq\Faq.cs" />
+    <Compile Include="News\Comments.cs" />
+    <Compile Include="Contacts\Contacts.cs" />
+    <Compile Include="Thuvien\Download.cs" />
+    <Compile Include="Lang\Lans.cs" />
+    <Compile Include="Marketing\Marketing.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="News\News.cs" />
+    <Compile Include="News\News_Related.cs" />
+    <Compile Include="Products\CartDetail.cs" />
+    <Compile Include="Products\Carts.cs" />
+    <Compile Include="Products\Product_images.cs" />
+    <Compile Include="Products\Products.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\Setting.cs" />
+    <Compile Include="Member\Member.cs" />
+    <Compile Include="TinhThanh\Tinhthanh.cs" />
+    <Compile Include="Video\VideoClip.cs" />
+    <Compile Include="WebStatistic\web_statistic.cs" />
+    <Compile Include="Online\YahooMessenger.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

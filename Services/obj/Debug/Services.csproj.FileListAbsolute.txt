@@ -1,0 +1,321 @@
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Services.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Services.pdb
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\obj\Debug\Services.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\obj\Debug\Services.pdb
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Framework.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\MoreAll.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Entity.pdb
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\Framework.pdb
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Services\bin\Debug\MoreAll.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Services.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Services.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Framework.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\MoreAll.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Entity.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\Framework.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\bin\Debug\MoreAll.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\obj\Debug\Services.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Services\obj\Debug\Services.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Services.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Services.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Framework.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\MoreAll.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\Framework.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\bin\Debug\MoreAll.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\obj\Debug\Services.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Services\obj\Debug\Services.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Services.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Services.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Framework.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Framework.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\MoreAll.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\obj\Debug\ResolveAssemblyReference.cache
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\obj\Debug\Services.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\obj\Debug\Services.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\MoreAll.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Database.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Services\bin\Debug\Database.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Services.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Services.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Framework.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\MoreAll.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Database.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Framework.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\MoreAll.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Services.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Services.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Database.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Framework.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\MoreAll.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\Framework.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\bin\Debug\MoreAll.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Services.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Services.pdb
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Database.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Entity.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Framework.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\MoreAll.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Entity.pdb
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\Framework.pdb
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\bin\Debug\MoreAll.pdb
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\obj\Debug\Services.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Services\obj\Debug\Services.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Services.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Services.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Database.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Framework.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Framework.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Services.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Services.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Database.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Framework.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Framework.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\obj\Debug\Services.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Services\bin\Debug\MoreAll.pdb
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Services.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Services.pdb
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Database.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Entity.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Framework.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\MoreAll.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Framework.pdb
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\Entity.pdb
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\bin\Debug\MoreAll.pdb
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\obj\Debug\Services.dll
+D:\Congty_TheAnh\2018\Thang04\VS.Thucpham\Services\obj\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Database.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Database.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.pdb
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Services.pdb
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Database.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Framework.pdb
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\Entity.pdb
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\bin\Debug\MoreAll.pdb
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.dll
+F:\CongtyGooDeign\NAM2019\Code Chuẩn\VS.E_Commerce_Full_2018\Services\obj\Debug\Services.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Services.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Services.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Database.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Entity.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Framework.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Framework.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Entity.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\MoreAll.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\MoreAll.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Services.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Services.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Database.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Entity.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Framework.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\MoreAll.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Framework.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\Entity.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\bin\Debug\MoreAll.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Services\obj\Debug\Services.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Services.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Services.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\MoreAll.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\bin\Debug\MoreAll.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\obj\Debug\Services.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Services\obj\Debug\Services.pdb

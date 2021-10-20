@@ -1,0 +1,36 @@
+﻿.dialog1{width:100%;height:100%;top:0;left:0;position:fixed;z-index:1000;text-align:center;}
+.dialog1 .dlConent{min-width:375px;min-height:300px;position:relative;top:155px;text-align:left;}
+.dialog1 .dlConent a.dialogClose{float:right;position:relative;top:25px;right:10px;width:8px;height:8px;background:url("../images/closeX.png") no-repeat 0 0;}
+.dialog1 .dlConent a.dialogClose:hover{background-position:left bottom;}
+.dialog1 .dlConent .dlTitle{float:left;position:relative;top:25px;right:10px;height:16px;padding-left:30px;font-size:12px;font-weight:bold;}
+.dialog1 .dlConent .dlTL, .dialog1 .dlConent .dlTR, .dialog1 .dlConent .dlTBg, .dialog1 .dlConent .dlBL, .dialog1 .dlConent .dlBR, .dialog1 .dlConent .dlBBg{height:20px;clear:both;}
+.dialog1 .dlConent .dlTL, .dialog1 .dlConent .dlTR, .dialog1 .dlConent .dlTBg, .dialog1 .dlConent .dlCL, .dialog1 .dlConent .dlCR, .dialog1 .dlConent .dlBL, .dialog1 .dlConent .dlBR, .dialog1 .dlConent .dlBBg{background:#fff url("../images/rounded-white.png");background-repeat:no-repeat;text-align:left;}
+.dialog1 .dlConent .dlTL, .dialog1 .dlConent .dlCL, .dialog1 .dlConent .dlBL{padding-left:20px;}
+.dialog1 .dlConent .dlTR, .dialog1 .dlConent .dlCR, .dialog1 .dlConent .dlBR{padding-right:20px;}
+.dialog1 .dlConent .dlTL{background-position:left top;}
+.dialog1 .dlConent .dlTR{background-position:right top;}
+.dialog1 .dlConent .dlTBg{background-repeat:repeat-x;background-position:left -40px;}
+.dialog1 .dlConent .dlCL{background-position:left -80px;background-repeat:repeat-y;}
+.dialog1 .dlConent .dlCR{background-position:right -80px;background-repeat:repeat-y;}
+.dialog1 .dlConent .dlCT{background-color:#fff;padding-top:10px;}
+.dialog1 .dlConent .dlBL{background-position:left -20px;}
+.dialog1 .dlConent .dlBR{background-position:right -20px;}
+.dialog1 .dlConent .dlBBg{background-position:0px -60px;background-repeat:repeat-x;}
+.dialog2{width:100%;height:100%;top:0;left:0;position:fixed;z-index:1000;text-align:center;}
+.dialog2 .dlConent{min-width:575px;min-height:450px;position:relative;top:20px;text-align:left;}
+.dialog2 .dlConent a.dialogClose{float:right;position:relative;top:25px;right:10px;width:8px;height:8px;background:url("../images/closeX.png") no-repeat 0 0;}
+.dialog2 .dlConent a.dialogClose:hover{background-position:left bottom;}
+.dialog2 .dlConent .dlTitle{float:left;position:relative;top:25px;right:10px;height:16px;padding-left:30px;font-size:12px;font-weight:bold;}
+.dialog2 .dlConent .dlTL, .dialog2 .dlConent .dlTR, .dialog2 .dlConent .dlTBg, .dialog2 .dlConent .dlBL, .dialog2 .dlConent .dlBR, .dialog2 .dlConent .dlBBg{height:20px;clear:both;}
+.dialog2 .dlConent .dlTL, .dialog2 .dlConent .dlTR, .dialog2 .dlConent .dlTBg, .dialog2 .dlConent .dlCL, .dialog2 .dlConent .dlCR, .dialog2 .dlConent .dlBL, .dialog2 .dlConent .dlBR, .dialog2 .dlConent .dlBBg{background:#fff url("../images/rounded-white.png");background-repeat:no-repeat;text-align:left;}
+.dialog2 .dlConent .dlTL, .dialog2 .dlConent .dlCL, .dialog2 .dlConent .dlBL{padding-left:20px;}
+.dialog2 .dlConent .dlTR, .dialog2 .dlConent .dlCR, .dialog2 .dlConent .dlBR{padding-right:20px;}
+.dialog2 .dlConent .dlTL{background-position:left top;}
+.dialog2 .dlConent .dlTR{background-position:right top;}
+.dialog2 .dlConent .dlTBg{background-repeat:repeat-x;background-position:left -40px;}
+.dialog2 .dlConent .dlCL{background-position:left -80px;background-repeat:repeat-y;}
+.dialog2 .dlConent .dlCR{background-position:right -80px;background-repeat:repeat-y;}
+.dialog2 .dlConent .dlCT{background-color:#fff;padding-top:10px;}
+.dialog2 .dlConent .dlBL{background-position:left -20px;}
+.dialog2 .dlConent .dlBR{background-position:right -20px;}
+.dialog2 .dlConent .dlBBg{background-position:0px -60px;background-repeat:repeat-x;}

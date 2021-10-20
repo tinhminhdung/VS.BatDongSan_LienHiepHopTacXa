@@ -1,0 +1,120 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using VS.ECommerce_MVC
+@model HoaHong
+@{Html.RenderAction("Nav_conten", "My_Partialview");}
+<div class="container">
+    <h1 class="title-head"><span>Lịch sử hoa hồng</span></h1>
+    <div class="page-login margin-bottom-30">
+        <div id="login">
+            <div id="pagelogin">
+                <form class="mh-advanced-search mh-no-margin-bottom" action="/lich-su-hoa-hong.html" method="GET">
+                    <div class="Loctimkiem" id="sample_1_length">
+                        <select name="Category" id="Category" class="txt">
+                            <option selected="selected" value="0">Tất cả loại Hoa Hồng</option>
+                            <option value="1">Hoa hồng Người Bán Hàng</option>
+                            <option value="2">Hoa hồng người tuyển dụng</option>
+                            <option value="3">Hoa hồng Văn Phòng Chi Nhánh</option>
+                            <option value="4">Hoa hồng Ban Đào Tạo</option>
+                            <option value="5">Hoa hồng Ban Điều hành</option>
+                            <option value="6">Hoa hồng Người Khai Thác</option>
+                            <option value="7">Hoa hồng Trưởng Nhóm Kinh Doanh</option>
+                            <option value="8">Hoa hồng Trưởng Phòng Kinh Doanh</option>
+                            <option value="9">Hoa hồng Giám Đốc Kinh Doanh</option>
+                        </select>
+                        <div id="datepicker" class="input-group date" data-date-format="dd/mm/yyyy">
+                            @Html.TextBox("TuNgay", (string)ViewBag.TuNgays, new { placeholder = "Từ Ngày/Tháng/Năm", @class = "form-control" }) <span class="input-group-addon"></span>
+                            @*<input name="TuNgay" type="text" id="TuNgay" class="form-control" placeholder="Từ Ngày/Tháng/Năm" style="width:200px;width: 200px;">*@
+                        </div>
+                        <div id="date" class="input-group date" data-date-format="dd/mm/yyyy">
+                            @Html.TextBox("DenNgay", (string)ViewBag.DenNgays, new { placeholder = "Đến Ngày/Tháng/Năm", @class = "form-control" }) <span class="input-group-addon"></span>
+                            @*<input name="DenNgay" type="text" id="DenNgay" class="form-control" placeholder="Từ Ngày/Tháng/Năm" style="width:200px;width: 200px;">*@
+                        </div>
+                        <button class="btn btn-primary btn-block timkiemsss" type="submit">Tìm kiếm!</button>
+                    </div>
+
+                </form>
+
+                <div style="clear: both; height: 5px"></div>
+                <div class="table-responsive tab-all" style="overflow-x: auto;">
+                    <div class="list_item">
+                        <table cellspacing="0" style="border-collapse: collapse; margin-top: 18px" class="table table-striped table-bordered dataTable table-hover">
+                            <tbody>
+                                <tr class="trHeader" style="height: 25px">
+                                    <th style="width: 4%; font-weight: bold;" align="center" class="contentadmin" rowspan="">
+                                        STT
+                                    </th>
+                                    <th style="width: 4%; font-weight: bold; display: none;" class="contentadmin">No</th>
+                                    <th style="font-weight: bold; width: 200px" class="tenhoahong">Kiểu hoa hồng</th>
+                                    <th style="font-weight: bold; text-align: center">Người Mua Hàng</th>
+                                    <th style="font-weight: bold; text-align: center">Người Hưởng</th>
+                                    <th style="font-weight: bold; text-align: center">% Hoa Hồng</th>
+                                    <th style="font-weight: bold; text-align: center">Số tiền</th>
+                                    <th style="font-weight: bold; text-align: center">Ngày tạo</th>
+                                </tr>
+                                @{
+                                    int k = 1;
+                                    List<HoaHong> items = ViewBag.Show as List<HoaHong>;
+                                    if (items != null)
+                                    {
+                                        foreach (var item in items)
+                                        {
+                                            <tr>
+                                                <td style="text-align: center;">
+                                                    @k
+                                                            </td>
+                                                            <td style="text-align: left; width: 200px" class="tenhoahong">
+                                                                @item.KieuHH
+                                                                <div style=" color:red; font-size:14px;">Mã đơn hàng: # @item.IDDonHang</div>
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @Html.Raw(Commond.ShowThanhVien_Display(item.IDThanhVienMua.ToString()))
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @Html.Raw(Commond.ShowThanhVien_Display(item.IDThanhVienHuong.ToString()))
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @item.PhanTram
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @Html.Raw(AllQuery.MorePro.Detail_Price(item.SoTienDuocHuong.ToString()))
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @Html.Raw(MoreAll.FormatDateTime.FormatDates(item.NgayTao.ToString()))
+                                                            </td>
+                                                        </tr>
+                                            k++;
+
+                                        }
+                                    }
+                                }
+                        </table>
+                    </div>
+                </div>
+                <div style="color: red; text-align: right; padding-top: 7px; font-weight: 600">
+                  Tổng cộng: @Html.Raw(ViewBag.ltCoin)
+                    </div>
+                <div class="pager">
+                    @Html.Raw(ViewBag.Phantrang)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $("#datepicker").datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+        $('.date').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+    });
+</script>

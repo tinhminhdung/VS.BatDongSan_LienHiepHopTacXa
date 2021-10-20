@@ -1,0 +1,15 @@
+﻿<section class="bread_crumb py-4">
+    <div class="container">
+        <div class="">
+            <div class="col-xs-12">
+                <ul class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li class="home">
+                        <a itemprop="url" href="/"><span itemprop="title">@Commond.label("l_home")</span></a>
+                        <span> <i class="fa fa-angle-right"></i> </span>
+                    </li>
+                    @Html.Raw(ViewBag.ltrnav)
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

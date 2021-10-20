@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string language = MoreAll.Captionlanguage.SetLanguage();
+}
+@section jsFooter{
+    <script src="~/Resources/ScripMvc/ThanhToan.js"></script>
+}
+@{Html.RenderAction("Nav_conten", "My_Partialview");}
+@using (Html.BeginForm())
+{
+    <section class="container">
+        <section class="">
+            <section class="main_container ">
+                <div class="box-heading relative">
+                    <h1 class="title-head page_title">Rút tiền hoa hồng</h1>
+                </div>
+                <section class="list-blogs blog-main ">
+                    <div class="">
+                        <div class="nentrang" style="float: left;">
+                            <div class='frm-contact'>
+                                <div style="padding: 10px 10px 10px 10px; color:red">
+                                    @Html.Raw(ViewBag.ltmsg)
+                                    @Html.Raw(ViewBag.ThongBao)
+                                </div>
+                                <div style="width: 100%">
+                                    <div class="tbinput">
+                                        <div style=" font-size: 16px; color: red; text-transform: uppercase">
+                                            Tổng tiền trong ví: @Html.Raw(ViewBag.lttongtien) tiền
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Số tiền cần rút:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txtsotiencanrut", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TBtsotiencanrut"></p>
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Tên ngân hàng:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txttennganhang", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TB_tennganhang"></p>
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Họ và tên:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txthovaten", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TB_TenKH"></p>
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Số tài khoản:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txtsotaikhoan", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TB_sotaikhoan"></p>
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Chi nhánh:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txtchinhanh", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TB_Chinhanh"></p>
+                                        </div>
+                                    </div>
+                                    <div class="tbinput">
+                                        <div class="labelll">
+                                            Nội dung chuyển tiền:
+                                        </div>
+                                        <div>
+                                            @Html.TextBox("txtnoidungchuyentien", "",new { placeholder = "", @class = "form-control form-control-lg" })
+                                            <p style="display: inline-block; color: red; margin-left: 4px;" id="TB_noidungchuyentien"></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                                <br />
+                                <div style="">
+                                    <div style="padding: 10px 10px 10px 10px; color:red">@Html.Raw(ViewBag.ThongBao)</div>
+                                </div>
+                                <br /><br />
+                                <div style="clear: both; height: 10px;"></div>
+                                <input type="submit" value="Thanh toán" onclick="return ThanhToan();" class="btnmvc" />
+                        </div>
+
+                        <div style="clear: both"></div>
+
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+}

@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="">
+    <div id="content" class="blog-wrapper blog-archive page-wrapper">
+        <div class="row row-large ">
+            <div class="large-12 col">
+                <div class="container section-title-container mh-title-label" style="margin-bottom:0px;">
+                    <h3 class="section-title section-title-normal">
+                        <b></b>
+                        <span class="section-title-main">
+                            @Html.Raw(ViewBag.Name)
+                        </span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class=" large-columns-3 medium-columns- small-columns-1">
+                    <div class="News-content">
+                        <div class="contents">@Html.Raw(ViewBag.Description)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,88 @@
+﻿
+
+<header id="header" class="header has-sticky sticky-jump">
+    <div class="header-wrapper">
+        <div id="masthead" class="header-main hide-for-sticky">
+            <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+                <div id="logo" class="flex-col logo">
+                    @Html.Raw(AllQuery.Banner.Banners())
+                </div>
+                <div class="flex-col show-for-medium flex-left">
+                    <ul class="mobile-nav nav nav-left ">
+                        <li class="nav-icon has-icon">
+                            <span style="font-size: 30px; cursor: pointer; padding-top: 7px; float: left;" onclick="openNav()"><i class="icon-menu"></i></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bg-container fill">
+            <div class="header-bg-image fill"></div>
+            <div class="header-bg-color fill"></div>
+        </div>
+    </div>
+</header>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="Danhmucmenu">Danh mục menu  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+    <div class="Mobile">
+        <nav>
+            <ul data-breakpoint="1025" class="flexnav with-js opacity sm-screen flexnav-show">
+                @if (MoreAll.MoreAll.GetCookies("Members").ToString() == "")
+                {
+                    <li><a href="/Dang-nhap.html"><i style="color: #ff1a1a; " class="fa fa-user"></i> Đăng nhập</a></li>
+                    <li><a href="/dang-ky.html"><i style="color: #ff1a1a; " class="fa fa-user"></i> Đăng ký</a></li>
+                }
+                else
+                {
+                  
+                    <li><a href="/wallet.html"><i style="color: #ff1a1a; " class="fa fa-credit-card"></i> Ví tiền</a></li>
+                    <li><a href="/lich-su-hoa-hong.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Lịch sử hoa hồng</a></li>
+                    <li><a href="/rut-tien.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Thanh toán</a></li>
+                    <li><a href="/lich-su-thanh-toan.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Lịch sử thanh toán</a></li>
+                    <li><a href="/link-affiliate.html"><i style="color: #ff1a1a" class="fa fa-share-alt"></i> Link Affiliate</a></li>
+                    <li><a href="/danh-sach-thanh-vien.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Danh sách thành viên</a></li>
+                    <li><a href="/ho-so-thanh-vien.html"><i style="color: #ff1a1a" class="fa fa-user"></i> Hồ sơ thành viên</a></li>
+                    <li><a href="/doi-mat-khau.html"><i style="color: #ff1a1a" class="far fa-lock"></i> Đổi mật khẩu</a></li>
+                    <li><a href="/Members/Thoat"><i style="color: #ed1c24" class="fa fa-sign-out"></i> Đăng xuất</a></li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="Destop">
+    @if (MoreAll.MoreAll.GetCookies("Members").ToString() == "")
+    {
+        <div class="header-button header-dangtin ">
+            <a href="/Dang-nhap.html?ReturnUrl=@Request.RawUrl.ToString()" class="button primary">
+                <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng tin miễn phí</span>
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="header-dangnhapMB ">
+            <a onclick="ShowthanhvienMB()"><i class="fa fa-user"></i> @MoreAll.MoreAll.GetCookies("MembersUser").ToString() - </a>
+            <a style="color:#ed1c24" href="/Members/Thoat"> <i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a>
+            <div id="ShowthanhvienMB" class="ThanhVienMobile" style=" display:none">
+                <ul>
+                    <li style="padding-top:5px;"><a href="/wallet.html"><i style="color: #ff1a1a; " class="fa fa-credit-card"></i> Ví tiền</a></li>
+                    <li><a href="/lich-su-hoa-hong.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Lịch sử hoa hồng</a></li>
+                    <li><a href="/rut-tien.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Thanh toán</a></li>
+                    <li><a href="/lich-su-thanh-toan.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Lịch sử thanh toán</a></li>
+                    <li><a href="/link-affiliate.html"><i style="color: #ff1a1a" class="fa fa-share-alt"></i> link Affiliate</a></li>
+                    <li><a href="/danh-sach-thanh-vien.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Danh sách thành viên</a></li>
+                    <li><a href="/ho-so-thanh-vien.html"><i style="color: #ff1a1a" class="fa fa-user"></i> Hồ sơ thành viên</a></li>
+                    <li><a href="/doi-mat-khau.html"><i style="color: #ff1a1a" class="far fa-lock"></i> Đổi mật khẩu</a></li>
+                    <li><a href="/Members/Thoat"><i style="color: #ed1c24" class="fa fa-sign-out"></i> Đăng xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    }
+
+
+
+</div>

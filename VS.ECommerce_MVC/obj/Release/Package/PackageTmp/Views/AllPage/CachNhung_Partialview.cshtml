@@ -1,0 +1,16 @@
+﻿@*Kiểu load code từ C#*@
+@{Html.RenderAction("Box_Facebook", "AllPage");}
+
+@{Html.RenderAction("MenuTop", "Menu");}
+
+@{Html.RenderAction("Header", "My_Partialview");}
+
+@{Html.RenderAction("Footer", "My_Partialview");}
+
+
+@*kiểu load code trên htm*@
+@Html.Partial("~/Views/AllPage/Register_Email.cshtml")
+@Html.Partial("~/Views/AllPage/Register_Phone.cshtml")
+
+@Html.Partial("~/Views/AllPage/Box_lang.cshtml")
+@Html.Partial("~/Views/Members/XinChao.cshtml")

@@ -1,0 +1,36 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<main id="main" class="">
+    <div id="content" class="blog-wrapper blog-archive page-wrapper">
+        <div class="row row-large ">
+            <div class="large-12 col">
+                <div class="container section-title-container mh-title-label" style="margin-bottom:0px;">
+                    <h3 class="section-title section-title-normal">
+                        <b></b>
+                        <span class="section-title-main">
+                            @Html.Raw(ViewBag.Name)
+                        </span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class=" large-columns-3 medium-columns- small-columns-1">
+                    <div class="News-content">
+                        <div class="contents">@Commond.Link301();</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+@*làm theo trang này đễ bẫy lỗi 404 nhe*@
+
+@*https://helpex.vn/question/lam-the-nao-toi-co-the-xu-ly-dung-404-trong-asp-net-mvc--5cb16609ae03f6169c9d9734*@
+
+@*https://stackoverflow.com/questions/20366170/asp-net-mvc-5-http-error-404-0-not-found-with-long-non-existing-url*@

@@ -1,0 +1,7 @@
+﻿http://localhost:63136/swagger/ui/index
+
+****
+// var responseData = Mapper.Map<List<Entity.Products>, List<ProductViewModel>>(model);
+lưu y: // Sử dụng AutoMapper và cần phải khai báo trong AutoMapperConfiguration
+
+****

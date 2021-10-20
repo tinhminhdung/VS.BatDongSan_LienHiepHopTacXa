@@ -1,0 +1,508 @@
+﻿Tổng hợp mẹo code nhanh Trong Visual Studio
+
+Convert Json to C# Classes Online https://json2csharp.com
+json formart https://jsonformatter.curiousconcept.com
+
+
+khóa học làm API netcore
+https://www.youtube.com/watch?v=KjBkjX6hA3g&t=5s
+
+
+1. Create empty Solution
+	- HelloSolution
+	
+2. Create project WebApp and Api
+	- Hello.WebApp 
+	- Hello.Api 
+
+3. Create Class Library Database and Application
+	- Hello.Database
+	3.0. Install nuget
+		Microsoft.EntityFrameworkCore.SqlServer
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore.Tools
+		
+	3.1. Create Entities and setting anotation
+		3.1.1 create entity class
+		namespace Hello.Database.Entities
+		{
+			public class SinhVien
+			{
+				public int id { get; set; }
+
+				public string name { get; set; }
+
+				public string address { get; set; }
+			}
+		}
+		3.2.2 guild for setting anotation
+		https://www.learnentityframeworkcore.com/configuration/data-annotation-attributes
+		
+
+	3.2. Create Class Context
+		- HelloContext.cs
+		using Hello.Database.Entities;
+		using Microsoft.EntityFrameworkCore;
+		using System;
+		using System.Collections.Generic;
+		using System.Text;
+
+		namespace Hello.Database
+		{
+			public class HelloDbContext: DbContext
+			{
+				public HelloDbContext(DbContextOptions<HelloDbContext> options) : base(options)
+				{  
+				}
+				public DbSet<SinhVien> SinhViens { get; set; } 
+			}
+		}
+
+	3.3. Create Class ContextFactory
+		- HelloContextFactory.cs
+		using Microsoft.EntityFrameworkCore;
+		using Microsoft.EntityFrameworkCore.Design;
+		using System;
+		using System.Collections.Generic;
+		using System.Text;
+
+		namespace Hello.Database
+		{
+			class HelloDbContextFactory : IDesignTimeDbContextFactory<HelloDbContext>
+			{
+				public HelloDbContext CreateDbContext(string[] args)
+				{
+					var optionsBuilder = new DbContextOptionsBuilder<HelloDbContext>();
+					optionsBuilder.UseSqlServer("Server=DESKTOP-4E8QDLJ\\SQLEXPRESS;Database=myDb;Trusted_Connection=True;");
+					return new HelloDbContext(optionsBuilder.Options);
+				}
+			}
+		}
+
+	3.4. Migrations create database
+		=>  tool => Nuget Package Manager => Nuget Package Console
+		- Create migration Initial
+			Add-Migration Initial
+		- Start update database base on migration above
+			update-database
+	
+4. Update Class Application(Hello.Application)
+	4.1.  Create folder Modules for Entitie
+		- Folder MSinhVien
+	
+	4.2. Create DTO, Request, Response from Class Entity
+		- SinhVienDto.cs, SinhVienRequest.cs, SinhVienResponse.cs
+		
+	4.3. Create interface for servive
+		- ISinhVienService.cs
+		using System;
+		using System.Collections.Generic;
+		using System.Text;
+		using System.Threading.Tasks;
+
+		namespace HocDotNet.Application.MSinhVien
+		{
+			public interface ISinhVienService
+			{
+				public Task<int> Create(SinhVienRequest sinhVienRequest);
+
+				public Task<int> Update(SinhVienRequest sinhVienRequest);
+
+				public Task<int> Delete(SinhVienRequest sinhVienRequest);
+
+				public Task<List<SinhVienResponse>> GetAll();
+			}
+		}		
+		
+	4.4. Create servive
+		- SinhVienService.cs
+		using HocDotNet.Database;
+		using HocDotNet.Database.Entities;
+		using Microsoft.EntityFrameworkCore;
+		using System.Collections.Generic;
+		using System.Linq;
+		using System.Threading.Tasks;
+
+		namespace HocDotNet.Application.MSinhVien
+		{
+			public class SinhVienService : ISinhVienService
+			{
+				private readonly HelloDbContext _context;
+
+				public SinhVienService(HelloDbContext context)
+				{
+					_context = context;
+				}
+
+				public async Task<int> Create(SinhVienRequest sinhVienRequest)
+				{
+					var sinhVien = new SinhVien()
+					{
+						name = sinhVienRequest.name,
+						address = sinhVienRequest.address
+					};
+					_context.SinhViens.Add(sinhVien);
+
+					return await _context.SaveChangesAsync();
+				}
+
+				public async Task<int> Delete(SinhVienRequest sinhVienRequest)
+				{
+					var sinhVien = new SinhVien()
+					{
+						id = sinhVienRequest.id
+					};
+					_context.SinhViens.Remove(sinhVien);
+
+					return await _context.SaveChangesAsync();
+				}
+
+
+				public async Task<int> Update(SinhVienRequest sinhVienRequest)
+				{
+					var sinhVien = new SinhVien()
+					{
+						id = sinhVienRequest.id,
+						name = sinhVienRequest.name,
+						address = sinhVienRequest.address
+					};
+					_context.SinhViens.Update(sinhVien);
+
+					return await _context.SaveChangesAsync();
+				}
+
+				public async Task<List<SinhVienResponse>> GetAll()
+				{
+					return await _context.SinhViens
+						.Select(x => new SinhVienResponse()
+						{
+							id = x.id,
+							name = x.name,
+							address = x.address
+						}).ToListAsync();
+				}
+			}
+		} 
+	
+
+5. Update API(Hello.Api)
+	5.1. add reference from Library Database and Application
+		
+	5.2. add connection string to appsetting.json
+	{
+	  "ConnectionStrings": {
+		"HelloDatabase": "Server=DESKTOP-4E8QDLJ\\SQLEXPRESS;Database=myDb;Trusted_Connection=True;"
+	  },
+	  "Logging": {
+		"LogLevel": {
+		  "Default": "Information",
+		  "Microsoft": "Warning",
+		  "Microsoft.Hosting.Lifetime": "Information"
+		}
+	  },
+	  "AllowedHosts": "*"
+	}
+	
+	5.3. Update Startup.cs
+	public void ConfigureServices(IServiceCollection services)
+	{
+		services.AddDbContext<HelloDbContext>(options =>
+			options.UseSqlServer(Configuration.GetConnectionString("HelloDatabase")));
+
+		// add DI
+		services.AddTransient<ISinhVienService, SinhVienService>();
+
+		services.AddControllersWithViews();
+	}
+	
+	5.4. Create Controller Api(SinhVienController) 
+	// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+	namespace Hello.Api.Controllers
+	{
+		[Route("api/[controller]")]
+		[ApiController]
+		public class SinhVienController : ControllerBase
+		{
+			private readonly ISinhVienService _sinhVienSerive;
+
+			public SinhVienController(ISinhVienService sinhVienService)
+			{
+				_sinhVienSerive = sinhVienService;
+			}
+
+			// GET: api/<SinhVienController>
+			[HttpGet]
+			public async Task<IActionResult> Get()
+			{ 
+				return Ok(await _sinhVienSerive.GetAll());
+			}
+
+			// GET: api/<SinhVienController>
+			[HttpPost("Create")]
+			public async Task<IActionResult> Post([FromBody]SinhVienRequest request)
+			{
+				return Ok(await _sinhVienSerive.Create(request));
+			} 
+		}
+	}
+
+6. Update WebApp(Hello.WebApp)
+	6.1. Create interface service api client
+	- ISinhVienApiClient.cs
+	namespace Hello.WebApp.Services
+	{
+		public interface ISinhVienApiClient
+		{
+			public Task<string> GetAll();
+
+			public Task<string> Create(SinhVienRequest request);
+		}
+	}
+	
+	6.2. Create service api client
+	- SinhVienApiClient.cs
+	namespace Hello.WebApp.Services
+	{
+		public class SinhVienApiClient : ISinhVienApiClient
+		{
+			private readonly IHttpClientFactory _httpClientFactory;
+
+			public SinhVienApiClient(IHttpClientFactory httpClientFactory)
+			{
+				_httpClientFactory = httpClientFactory;
+			}
+
+			public async Task<string> Create(SinhVienRequest request)
+			{
+				var json = JsonConvert.SerializeObject(request);
+				var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
+
+				var client = _httpClientFactory.CreateClient();
+				client.BaseAddress = new Uri("https://localhost:5001");
+				var response = await client.PostAsync("api/SinhVien/Create", httpContent);
+
+				return await response.Content.ReadAsStringAsync();
+			}
+
+			public async Task<string> GetAll()
+			{
+				var json = JsonConvert.SerializeObject(null);
+				var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
+
+				var client = _httpClientFactory.CreateClient();
+				client.BaseAddress = new Uri("https://localhost:5001");
+				var response = await client.GetAsync("api/SinhVien/GetAll");
+
+				return await response.Content.ReadAsStringAsync();
+			}
+		}
+	}
+	
+	6.3. Update port of Project api to 5001 and Project WebApp to 5002
+	
+	6.4. Add Dependence Injection of AddHttpClient and ISinhVienApiClient in Startup.cs
+		public void ConfigureServices(IServiceCollection services)
+		{
+			services.AddHttpClient();
+
+			// Add DI
+			services.AddTransient<ISinhVienApiClient, SinhVienApiClient>();
+
+			services.AddControllersWithViews();
+		}
+
+	6.5. Create Webapp Controller
+	- SinhVienController.cs
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Threading.Tasks;
+	using Hello.WebApp.Services;
+	using HocDotNet.Application.MSinhVien;
+	using Microsoft.AspNetCore.Mvc;
+	using Newtonsoft.Json;
+
+	namespace Hello.WebApp.Controllers
+	{
+		public class SinhVienController : Controller
+		{
+			private readonly ISinhVienApiClient _sinhVienApiClient;
+
+			public SinhVienController(ISinhVienApiClient sinhVienApiClient)
+			{
+				_sinhVienApiClient = sinhVienApiClient;
+			}
+
+			[HttpGet]
+			public async Task<IActionResult> Index()
+			{
+				var response = await _sinhVienApiClient.GetAll();
+
+				var model = JsonConvert.DeserializeObject<List<SinhVienResponse>>(response);
+
+				return View(model);
+			}
+
+			// GET: api/<SinhVienController>
+			[HttpGet]
+			public async Task<IActionResult> Create()
+			{
+				return View();
+			}
+
+			// GET: api/<SinhVienController>
+			[HttpPost]
+			public async Task<IActionResult> Create(SinhVienRequest request)
+			{
+				try
+				{
+					// TODO: Add insert logic here 
+					var response = await _sinhVienApiClient.Create(request);
+
+					return RedirectToAction("Index");
+				}
+				catch
+				{
+					return View();
+				}
+			}
+		}
+	}
+	
+	
+7. Create View CRUD
+	-index.cshtml
+	@model IEnumerable<SinhVienCRUD.Models.Lop>
+
+	@{
+		ViewBag.Title = "Index";
+	}
+
+	<h2>Index</h2>
+
+	<p>
+		@Html.ActionLink("Create New", "Create")
+	</p>
+	<table class="table">
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.name)
+			</th>
+			<th></th>
+		</tr>
+
+	@foreach (var item in Model) {
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.name)
+			</td>
+			<td>
+				@Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+				@Html.ActionLink("Details", "Details", new { id=item.id }) |
+				@Html.ActionLink("Delete", "Delete", new { id=item.id })
+			</td>
+		</tr>
+	}
+
+	</table>
+	
+	
+	-Create.cshtml
+	@model HocDotNet.Application.MSinhVien.SinhVienRequest
+
+	@{
+		ViewData["Title"] = "Index";
+	}
+
+	<h1>Index Create</h1>
+
+	<form asp-controller="SinhVien" asp-action="Create" method="post">
+		Name:  <input asp-for="name" /> <br />
+		Address: <input asp-for="address" /><br />
+		<button type="submit">Create</button>
+	</form> 
+	<div>
+		@Html.ActionLink("Back to List", "Index")
+	</div>
+	
+	-delete.cshtml
+	@model SinhVienCRUD.Models.sinhvien
+
+	@{
+		ViewBag.Title = "Delete";
+	}
+
+	<h2>Delete</h2>
+
+	<h3>Are you sure you want to delete this?</h3>
+	<div>
+		<h4>sinhvien</h4>
+		<hr />
+		<dl class="dl-horizontal">
+			<dt>
+				@Html.DisplayNameFor(model => model.username)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.username)
+			</dd>
+
+		</dl>
+
+		@using (Html.BeginForm()) {
+			@Html.AntiForgeryToken()
+
+			<div class="form-actions no-color">
+				<input type="submit" value="Delete" class="btn btn-default" /> |
+				@Html.ActionLink("Back to List", "Index")
+			</div>
+		}
+	</div>
+	
+	-update.cshtml
+	@model SinhVienCRUD.Models.sinhvien
+
+	@{
+		ViewBag.Title = "Edit";
+	}
+
+	<h2>Edit</h2>
+
+
+	@using (Html.BeginForm())
+	{
+		@Html.AntiForgeryToken()
+		
+		<div class="form-horizontal">
+			<h4>sinhvien</h4>
+			<hr />
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+			@Html.HiddenFor(model => model.id)
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.username, htmlAttributes: new { @class = "control-label col-md-2" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-offset-2 col-md-10">
+					<input type="submit" value="Save" class="btn btn-default" />
+				</div>
+			</div>
+		</div>
+	}
+
+	<div>
+		@Html.ActionLink("Back to List", "Index")
+	</div>
+
+	@section Scripts {
+		@Scripts.Render("~/bundles/jqueryval")
+	}
+
+
+	
+

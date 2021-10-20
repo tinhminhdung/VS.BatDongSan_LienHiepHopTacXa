@@ -1,0 +1,77 @@
+﻿@model PagedList.IPagedList<LCart>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "LichSuMuaHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="margin-top-30">
+    <div class="wrap_ padding_mobile">
+        <div class="row">
+            <div class="section_maps">
+                <div class="container max767 title_head margin-bottom-20">
+                    <div class="page_title page__ ">
+                        <h1 class="title_page_h1"><span>Lịch sử mua hàng</span></h1>
+                    </div>
+
+                </div>
+                <div class="container contact contact-owf">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="page-login page_cotact">
+                                <div id="pagelogin">
+
+
+                                    <div class="my-account">
+                                        <div class="dashboard">
+                                            <div class="recent-orders">
+                                                <div class="table-responsive tab-all" style="overflow-x: auto;">
+                                                    <table class="table table-cart lichsumuahang">
+                                                        <thead class="thead-default">
+                                                            <tr>
+                                                                <th>Đơn hàng</th>
+                                                                <th>Ngày</th>
+                                                                <th>Địa chỉ</th>
+                                                                <th>Giá trị đơn hàng</th>
+                                                                <th>Trạng thái</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            @foreach (var item in Model)
+                                                            {
+                                                            <tr class="first odd">
+                                                            <td style="text-align: center; color:red"><a style=" color:red" title="Xem chi tiết đơn hàng" href="/account/orders/@item.ID">#@item.ID</a></td>
+                                                            <td style="text-align: center">@MoreAll.MoreAll.FormatDate(item.Create_Date.ToString())</td>
+                                                            <td style="text-align: center">@item.Address </td>
+                                                            <td style="text-align: center"><span class="price">@AllQuery.MorePro.Detail_Price(item.Money.ToString())₫</span></td>
+                                                            <td style="text-align: center">
+                                                            @AllQuery.MorePro.ShowTrangThai(item.Status.ToString())
+                                                            </td>
+                                                            </tr>
+                                                            }
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="text-xs-right">
+                                                </div>
+                                                <div class="phantrang" style="">
+                                                    @Html.PagedListPager(Model, page => Url.Action("LichSuMuaHang", new { page }))
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

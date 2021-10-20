@@ -1,0 +1,57 @@
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Release\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Release\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Release\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Entity\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Entity\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Entity\obj\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Entity\obj\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.dll
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\bin\Release\Entity.pdb
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.dll
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Entity\obj\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Entity\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_DangTin\Entity\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Entity\obj\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_DangTin\Entity\obj\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_HoaHong\Entity\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_HoaHong\Entity\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_HoaHong\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_HoaHong\Entity\obj\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_HoaHong\Entity\obj\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Entity\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Entity\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Entity\obj\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Entity\obj\Release\Entity.pdb

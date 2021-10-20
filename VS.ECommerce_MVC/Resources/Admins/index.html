@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head id="Head1">
+      <title>
+         HỆ THỐNG QUẢN TRỊ WEBSITE
+      </title>
+      <!--CSS-->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+      <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+      <link type="text/css" rel="stylesheet" href="css/style.css" />
+      <script src="/js/bootstrap.min.js"></script>
+      <!--JS-->
+   </head>
+    <body>
+      <center>
+      <form name="Form1" method="post" action="admins.aspx" id="Form1" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; height:100%">
+        <div id="wrapper">
+            <div class="PageHeader">
+                <div class="LogoHeader">
+                    <div class="linkroot">
+                        <a  href="/admins.aspx" class="SiteName">ADMIN PAGE MANAGER</a>
+                    </div>
+                </div>
+                <div class="SystemMenu">
+                       <div>
+                          <ul class="sysMenu">
+                             <li class="first">
+                                <a id="g_subcontrols_ctl00_LinkButton12" class="link-topmenu" href="javascript:__doPostBack('g_subcontrols$ctl00$LinkButton12','')"> <span class="SubMenuText"><i class="icon-home"></i>Trang chủ</span></a>
+                             </li>
+                             <li><a target="_blank" href="/" class="link-topmenu"><i class="icon-list-alt"></i>Xem website</a></li>
+                             <li class="last">
+                                <div class="btn-group">
+                                   <a id="g_subcontrols_ctl00_lbthoten" class="btn account-info btn-info" href="javascript:__doPostBack('g_subcontrols$ctl00$lbthoten','')"><i class='icon-user'></i>SYSTEM</a>
+                                   <a href="#" data-toggle="dropdown" class="btn btn-info dropdown-toggle dropdown-toggle-acount"><span class="icon-caret-down"></span></a>
+                                   <ul class="dropdown-menu custome">
+                                      <li>
+                                         <a id="g_subcontrols_ctl00_lbtchangepasstit" href="javascript:__doPostBack('g_subcontrols$ctl00$lbtchangepasstit','')"><i class="icon-key"></i>Đổi mật khẩu</a>
+                                      </li>
+                                      <li>
+                                         <a id="g_subcontrols_ctl00_lbtthoat" class="LinkButtonadmin" href="javascript:__doPostBack('g_subcontrols$ctl00$lbtthoat','')"><i class="icon-signout"></i>Thoát</a>
+                                      </li>
+                                   </ul>
+                                </div>
+                                <div class="btn-group">
+                             <li class="img_lang"><a href=""/><img class='csimg' src=images/flag_vi.gif title=Viet Nam alt=Viet Nam/></a></li>
+                             <a href="#" style="margin-top:-0px;height:10px;margin-left:-10px" data-toggle="dropdown" class="btn btn-info dropdown-toggle dropdown-toggle-acount"><span class="icon-caret-down icon-caret-last"></span></a>
+                             <ul class="dropdown-menu custome">
+                             <li class="img_langss"><a href=""/><img  src=images/flag_vi.gif alt=Viet Nam/><span class='cslang'>Viet Nam</span></a></li><li class="img_langss"><a href=""/><img  src=images/flag_en.gif alt=English/><span class='cslang'>English</span></a></li>
+                             </ul>
+                             </div>
+                             </li>
+                          </ul>
+                       </div>
+                       <div class="langUse">
+                          <div class="lst">
+                          </div>
+                       </div>
+            </div>
+        </div>
+            <div id="container" class="row-fluid">
+                <div class="boder_menu">
+                   <div id="menu">
+                      <ul>
+                         <li  class="content1">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-cogs"></i>Quản trị</span>
+                            </a>
+                            <ul>
+                               <li class="SubFirst">
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton12" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton12','')"> <span class="SubMenuText">Trang chủ quản trị</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbt_Cauhinh" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbt_Cauhinh','')"><span class="SubMenuText">Cấu hình</span></a>
+                               </li>
+                               <li >
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton11" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton11','')"><span class="SubMenuText">Quản trị email nhận tin Khuyến mại</span></a>
+                               </li>
+                               <li >
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton2" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton2','')"><span class="SubMenuText">Liên hệ, phản hồi</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtcomment" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtcomment','')"><span class="SubMenuText">Quản lý bình luận</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li  class="content2">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-user"></i>Thành viên</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbt_quantritv" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbt_quantritv','')"><span class="SubMenuText">Thành viên quản trị</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtThanhvien" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtThanhvien','')"><span class="SubMenuText">Thành viên đăng ký</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li  class="content3">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-th-large"></i>Danh mục</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtmenuBDS" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtmenuBDS','')"> <span class="SubMenuText">Quản trị menu</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbt_Quangcao" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbt_Quangcao','')"><span class="SubMenuText">Quản trị quảng cáo</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtNhomonline" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtNhomonline','')"><span class="SubMenuText">Nhóm tư vấn online</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtOnline" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtOnline','')"><span class="SubMenuText">Tư vấn online</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtTags" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtTags','')"><span class="SubMenuText">Quản lý thẻ Tags</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li  class="content4">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-globe"></i>Tin tức</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton6" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton6','')"> <span class="SubMenuText">Nhóm tin</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton7" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton7','')"><span class="SubMenuText">Danh sách tin</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li  class="content5">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-tags"></i>Sản phẩm</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton4" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton4','')"> <span class="SubMenuText">Nhóm sản phẩm</span></a>
+                               </li>
+                               <li style=" display:none">
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton1" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton1','')"><span class="SubMenuText">Tính năng sản phẩm</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton3" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton3','')"><span class="SubMenuText">Danh sách sản phẩm</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li  class="content6">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-picture"></i>Thư viện</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton9" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton9','')"> <span class="SubMenuText">Nhóm thư viện</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton8" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton8','')"><span class="SubMenuText">Danh sách thư viện</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li style="display:none;">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-file-alt"></i>Tài liệu</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton5" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton5','')"> <span class="SubMenuText">Nhóm tài liệu</span></a>
+                               </li>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_LinkButton10" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$LinkButton10','')"><span class="SubMenuText">Danh sách tài liệu</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                         <li class="ctgiohang">
+                            <a class="TopMenuItem" href="javascript:;">
+                            <span class="MenuText"><i class="icon-shopping-cart"></i>Giỏ hàng</span>
+                            </a>
+                            <ul>
+                               <li>
+                                  <a id="g_subcontrols_ctl00_m_leftmenu_functions_lbtGiohang" class="LinkButton" href="javascript:__doPostBack('g_subcontrols$ctl00$m_leftmenu_functions$lbtGiohang','')"><span class="SubMenuText">Quản trị giỏ hàng</span></a>
+                               </li>
+                            </ul>
+                         </li>
+                      </ul>
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

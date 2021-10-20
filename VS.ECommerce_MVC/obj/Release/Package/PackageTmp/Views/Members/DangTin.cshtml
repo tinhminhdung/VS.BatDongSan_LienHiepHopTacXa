@@ -1,0 +1,434 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/Resources/admin/js/jquery-ui.js" type="text/javascript"></script>
+    <script src="~/Scripts/ckfinder/ckfinder.js" type="text/javascript"></script>
+    <script src="~/Scripts/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        CKEDITOR.replace('txttomtat', {
+            toolbar: [
+                { name: 'document', items: ['Source', '-', 'NewPage', 'Preview', '-', 'Templates'] },	// Defines toolbar group with name (used to create voice label) and items in 3 subgroups.
+                ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'],			// Defines toolbar group without name.
+                '/',																					// Line break - next group will be placed in new line.
+                { name: 'basicstyles', items: ['Bold', 'Italic'] }
+            ]
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.date').datepicker();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('[id*=btnBrowseImage]').each(function () {
+            $(this).click(function () {
+                BrowseServerNew('#txtMImage', '');
+            });
+        });
+        $("#container-img").sortable({
+            stop: function (event, ui) {
+                $('#txtMImage').val(GetStringImg());
+            }
+        });
+        function delall() {
+            $("#container-img").html('');
+            $('#txtMImage').val(GetStringImg());
+        }
+        function BrowseServerNew(functionData, startupPath) {
+
+            var finder = new CKFinder();
+            finder.basePath = '~/scripts/ckfinder/';
+            finder.startupPath = startupPath;
+            finder.selectActionFunction = SetFileFieldNew;
+            finder.selectActionData = functionData;
+            finder.popup();
+        }
+        function SetFileFieldNew(fileUrl, data, allFiles) {
+            var str = "";
+            var strimg = "";
+            var chuoi = "";
+            allFiles.forEach(function (item) {
+                strimg += "<li class='ui-state-default'><div class='box-img'><a href='javascript:void(0)' onclick=\"delimg($(this),'" + data["selectActionData"] + "');\" class='btn-close'>x</a> <img src='" + item.url + "' /> </div></li>";
+            })
+
+            $("#container-img").html($("#container-img").html() + strimg);
+            $("#container-img").sortable({
+                stop: function (event, ui) {
+                    $('#txtMImage').val(GetStringImg());
+                }
+            });
+            $("#container-img").disableSelection();
+            $('#' + data["selectActionData"]).val(GetStringImg());
+        }
+        function LoadStringImg(strImg, inputimg) {
+            var arr = strImg.split(',');
+            var strimg = "";
+            var chuoi = "";
+            arr.forEach(function (item) {
+                strimg += "<li class='ui-state-default'><div class='box-img'><a href='javascript:void(0)' onclick=\"delimg($(this),'" + inputimg + "');\" class='btn-close'>x</a> <img src='" + item + "' /> </div></li>";
+            })
+            $("#container-img").html($("#container-img").html() + strimg);
+            $("#container-img").sortable({
+                stop: function (event, ui) {
+                    $('#txtMImage').val(GetStringImg());
+                }
+            });
+            $("#container-img").disableSelection();
+            $('#txtMImage').val(GetStringImg());
+        }
+        function GetStringImg() {
+            var str = "";
+            $(".box-img img").each(function () {
+                str += $(this).attr('src') + ',';
+            })
+            return str;
+        }
+        function delimg(img, inputimg) {
+            img.parent().parent().remove();
+            $('#' + inputimg).val(GetStringImg());
+        }
+    </script>
+
+    <script>
+        function DangKy() {
+            debugger;
+            var title = document.getElementById('title').value;
+            var demand = document.getElementById('demand').value;
+            var category = document.getElementById('category').value;
+            var ddlcountry = document.getElementById('ddlcountry').value;
+            var ddlstate = document.getElementById('ddlState').value;
+            var PhuongXa = document.getElementById('PhuongXa').value;
+            var address = document.getElementById('address').value;
+            var Dientich = document.getElementById('Dientich').value;
+            var price = document.getElementById('price').value;
+            var DonGia = document.getElementById('DonGia').value;
+            var txtMImage = document.getElementById('txtMImage').value;
+            var txttomtat = document.getElementById('txttomtat').value;
+            debugger;
+            var loi = 0;
+            var chuoi = "";
+            if ($("#title").val() == "") {
+                chuoi += "Bạn chưa  nhập tiêu đề.<br>";
+                loi++;
+            }
+            if ($("#demand").val() == "0") {
+                chuoi += ("Bạn chưa chọn nhu cầu.<br>");
+
+                loi++;
+            }
+            if ($("#category").val() == "0") {
+                chuoi += ("Bạn chưa chọn loại nhà đất.<br>");
+                loi++;
+            }
+            if ($("#ddlcountry").val() == "0") {
+                chuoi += ("Bạn chưa chọn tỉnh thành.<br>");
+                loi++;
+            }
+             if ($("#ddlstate").val() == "") {
+                chuoi += ("Bạn chưa chọn Quận huyện.<br>");
+                loi++;
+            }
+             if ($("#PhuongXa").val() == "") {
+                chuoi += ("Bạn chưa chọn phường xã.<br>");
+                loi++;
+            }
+             if ($("#address").val() == "") {
+                chuoi += ("Bạn chưa nhập địa chỉ.<br>");
+                loi++;
+            }
+             if ($("#Dientich").val() == "") {
+                chuoi += ("Bạn chưa nhập diện tích.<br>");
+                loi++;
+            }
+             if ($("#price").val() == "") {
+                chuoi += ("Bạn chưa nhập giá . Nếu là thỏa thuận thì điền là 0.<br>");
+                loi++;
+            }
+             if ($("#DonGia").val() == "0") {
+                chuoi += ("Bạn chưa chọn đơn giá.<br>");
+                loi++;
+            }
+                //else if ($("txttomtat").val() == "") {
+                //    chuoi+=("Bạn chưa nhập thông tin mô tả.");
+                //     loi++;
+                //}
+             if ($("#txtMImage").val() == "") {
+                chuoi += ("Bạn chưa nhập ảnh đại diện.<br>");
+                loi++;
+            }
+             $("#ThongBao1").html("<div class='alert alert-danger mh-no-margin-bottom'>" + chuoi + "</div>");
+            if (loi != 0) {
+                return false;
+            }
+        }
+    </script>
+
+<script type="text/javascript">
+    var r = {
+        'special': /[\W]/g,
+        'quotes': /[^0-9^]/g,
+        'notnumbers': /[^a-zA]/g
+    }
+    function valid(o, w) {
+        o.value = o.value.replace(r[w], '');
+    }
+    var substringMatcher = function (strs) {
+        return function findMatches(q, cb) {
+            var matches; matches = []; substrRegex = new RegExp(q, 'i'); $.each(strs, function (i, str)
+            { if (substrRegex.test(str)) { matches.push(str); } }); cb(matches);
+        };
+    };
+
+</script>
+}
+
+<div class="container">
+    <h1 class="title-head"><span>Đăng tin bất động sản</span></h1>
+
+    <div class="row">
+        <div class="page-login margin-bottom-30">
+            <div id="login">
+                <span style="color:red">
+                    Vui lòng điền đầy đủ thông tin dưới from
+                </span>
+               
+                <main id="main" class="form-post">
+                    <span id="ThongBao1" style="color: #ffa903">@Html.Raw(ViewBag.ThongBao)</span>
+                    @using (Html.BeginForm())
+                    {
+                        <input type="hidden" name="action" value="post">
+                        <div class="row row-small dangtinss">
+                          
+                            <div class="col medium-12 small-12 large-6 form-group">
+                                <label>
+                                    Tiêu đề <span class="required">*</span>
+                                </label>
+                                <input class="form-control" type="text" name="title" id="title" value="">
+                            </div>
+
+                            <div class="col medium-6 small-12 large-3 form-group">
+                                <label>
+                                    Nhu cầu <span class="required">*</span>
+                                </label>
+                                <select class="form-control custom-select" name="demand" id="demand">
+                                    <option value="0">Chọn nhu cầu</option>
+                                    <option value="792">
+                                        Nhà đất bán
+                                    </option>
+                                    <option value="794">
+                                        Nhà đất cho thuê
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-6 small-12 large-3 form-group">
+                                <label>
+                                    Loại nhà đất <span class="required">*</span>
+                                </label>
+                                <select class="form-control custom-select" name="category" id="category">
+                                    @Html.Raw(ViewBag.NhaDatBan)
+                                </select>
+                            </div>
+
+                            <div class="col medium-4 small-12 large-2 form-group">
+                                <label>
+                                    Tỉnh/thành <span class="required">*</span>
+                                </label>
+                                @Html.Raw(ViewBag.ddlcountry)
+                            </div>
+
+                            <div class="col medium-4 small-12 large-2 form-group">
+                                <label>
+                                    Quận/huyện <span class="required">*</span>
+                                </label>
+                                <select class="form-control custom-select" id="ddlState" name="ddlState">
+                                    <option value="">Chọn quận/huyện</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-4 small-12 large-2 form-group">
+                                <label>
+                                    Phường/xã <span class="required">*</span>
+                                </label>
+                                <select class="form-control custom-select" name="PhuongXa" id="PhuongXa">
+                                    <option value="">Chọn phường/xã</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-12 small-12 large-6 form-group">
+                                <label>
+                                    Địa chỉ <span class="required">*</span>
+                                </label>
+                                <input class="form-control" type="text" name="address" id="address" value="">
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>
+                                    Diện tích <span class="required">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="Dientich" id="Dientich" value="">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            m<sup>2</sup>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>
+                                    Đơn giá <span class="required">*</span>
+                                </label>
+                                <select class="form-control custom-select" id="DonGia" name="DonGia">
+                                    <option value="0">Chọn đơn giá</option>
+                                    <option value="1">VNĐ</option>
+                                    <option value="2">VNĐ/tháng</option>
+                                    <option value="3">VNĐ/m2</option>
+                                    <option value="4">Giá thỏa thuận</option>
+                                </select>
+                                <input type="hidden" id="re_gia_thoa_thuan" name="re_gia_thoa_thuan" value="">
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>
+                                    Giá <span class="required">*</span>
+                                </label>
+                                <input class="form-control" type="text" id="price" name="price" onblur="valid(this,'quotes')" onkeyup="valid(this,'quotes')"  value="0">
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Hướng nhà</label>
+                                <select class="form-control custom-select" name="huongnha" id="huongnha">
+                                    <option value="0">Chọn hướng nhà</option>
+                                    <option value="1">Đông</option>
+                                    <option value="2">Tây</option>
+                                    <option value="3">Nam</option>
+                                    <option value="4">Bắc</option>
+                                    <option value="5">Đông bắc</option>
+                                    <option value="6">Đông nam</option>
+                                    <option value="7">Tây bắc</option>
+                                    <option value="8">Tây nam</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Mặt tiền</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="Mattien" id="Mattien" value="">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">m</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Lộ giới</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="Logioi" id="Logioi" value="">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">m</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Số tầng</label>
+                                <select class="form-control custom-select" id="Sotang" name="Sotang">
+                                    <option value="0">Số tầng</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Số phòng ngủ</label>
+                                <select class="form-control custom-select" id="Sophongngu" name="Sophongngu">
+                                    <option value="0">Số phòng ngủ</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-3 small-12 large-2 form-group">
+                                <label>Số toilet</label>
+                                <select class="form-control custom-select" id="Sotoilet" name="Sotoilet">
+                                    <option value="0">Số toilet</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+
+                            <div class="col medium-9 small-12 large-6 form-group">
+                                <label>Link youtube</label>
+                                <input class="form-control" type="text" name="LinkYoutube" id="LinkYoutube" value="">
+                            </div>
+
+                            <div class="col medium-12 small-12 large-6">
+                                <div class="form-group">
+                                    <label>Hình ảnh</label>
+                                    <div class="bg-light p-4 form-upload">
+                                       <span style="display:none">@Html.TextBox("txtMImage", "", new { placeholder = "", @class = "form-control form-control-lg" })</span>
+                                        <input class="sr-only" type="file" name="images[]" id="gallery" onclick="BrowseServerNew('txtMImage','News')" multiple="">
+                                        <p class="text-center">
+                                            <label class="btn btn-secondary mb-0" for="gallery">
+                                                <i class="fal fa-upload"></i>
+                                                <span>Upload...</span>
+                                            </label>
+                                        </p>
+                                        <p class="text-center mb-0">
+                                            Hãy upload hình để tin của bạn được nổi bật hơn, hấp dẫn hơn và nhiều lượt xem hơn.
+                                        </p>
+
+                                        <div style="clear: both"></div>
+                                        <ul id="container-img"></ul>
+                                        <div style="clear: both"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col medium-12 small-12 large-6 form-group">
+                                <label>
+                                    Thông tin chi tiết <span class="required">*</span>
+                                </label>
+                                <div id="wp-desc-wrap" class="wp-core-ui wp-editor-wrap tmce-active">
+                                    @Html.TextArea("txttomtat", (string)ViewBag.txttomtat, new { @class = "ckeditor" })
+                                </div>
+                            </div>
+                            <div class="col medium-12 small-12 large-12 form-group text-right">
+                                <input type="submit" value="Đăng tin" onclick="return DangKy();" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    }
+                </main>
+            </div>
+        </div>
+    </div>
+</div>

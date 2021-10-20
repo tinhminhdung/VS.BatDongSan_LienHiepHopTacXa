@@ -1,0 +1,160 @@
+﻿<div class="large-3 col">
+    <div id="secondary" class="widget-area " role="complementary">
+        <aside id="custom_html-5" class="widget_text widget widget_custom_html">
+            <div class="textwidget custom-html-widget">
+                <div class="mh-aside-advanced-search">
+                    <span class="widget-title ">
+                        <span>
+                            <i class="fas fa-search mr-2"></i>
+                            Tìm nhiều hơn
+                        </span>
+                    </span>
+
+                    <div class="advanced-search-content">
+                        <form class="form-advanced-search form-aside-advanced-search" action="/tim-kiem.html" method="GET">
+                            <div class="row row-small">
+                                <div class="col medium-12 small-12 large-12 form-group demand-radios">
+                                    <label class="demand-radio">
+                                        <input name="demand" type="radio" value="792" checked="" onclick="ShowNhaDatBan()">
+                                        <span class="name">Nhà đất bán</span>
+                                    </label>
+                                    <label class="demand-radio">
+                                        <input name="demand" type="radio" value="794" onclick="ShowNhaDatChoThue()">
+                                        <span class="name">Nhà đất cho thuê</span>
+                                    </label>
+                                    <input class="form-control" type="hidden" name="s" placeholder="Từ khóa" />
+                                </div>
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    <div class="col-inner">
+                                        <input class="form-control" type="text" name="key_word" placeholder="Từ khóa">
+                                    </div>
+                                </div>
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    <select class="form-control custom-select" name="category" id="category">
+                                        @Html.Raw(ViewBag.NhaDatBan)
+                                    </select>
+                                </div>
+
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    @Html.Raw(ViewBag.ddlcountry)
+                                </div>
+
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    <select class="form-control custom-select" id="ddlState" name="ddlState">
+                                        <option value="">Chọn quận/huyện</option>
+                                    </select>
+                                </div>
+
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    <select class="form-control custom-select" name="PhuongXa" id="PhuongXa">
+                                        <option value="">Chọn phường/xã</option>
+                                    </select>
+                                </div>
+
+                                <div class="col medium-12 small-12 large-12 form-group">
+                                    <select class="form-control custom-select" name="building_orientation">
+                                        <option value="0">Chọn hướng nhà</option>
+                                        <option value="1">Đông</option>
+                                        <option value="2">Tây</option>
+                                        <option value="3">Nam</option>
+                                        <option value="4">Bắc</option>
+                                        <option value="5">Đông bắc</option>
+                                        <option value="6">Đông nam</option>
+                                        <option value="7">Tây bắc</option>
+                                        <option value="8">Tây nam</option>
+                                    </select>
+                                </div>
+
+                                <div class="col medium-6 small-6 large-6 form-group">
+                                    <select class="form-control custom-select" name="min_price">
+                                        <option value="0">Giá thấp nhất</option>
+                                        <option value="1000000">
+                                            <strong>1</strong> triệu
+                                        </option>
+                                        <option value="100000000">
+                                            <strong>100</strong> triệu
+                                        </option>
+                                        <option value="200000000">
+                                            <strong>200</strong> triệu
+                                        </option>
+                                        <option value="500000000">
+                                            <strong>500</strong> triệu
+                                        </option>
+                                        <option value="1000000000">
+                                            <strong>1</strong> tỷ
+                                        </option>
+                                        <option value="3000000000">
+                                            <strong>3</strong> tỷ
+                                        </option>
+                                        <option value="5000000000">
+                                            <strong>5</strong> tỷ
+                                        </option>
+                                        <option value="8000000000">
+                                            <strong>8</strong> tỷ
+                                        </option>
+                                        <option value="10000000000">
+                                            <strong>10</strong> tỷ
+                                        </option>
+                                        <option value="20000000000">
+                                            <strong>20</strong> tỷ
+                                        </option>
+                                        <option value="35000000000">
+                                            <strong>35</strong> tỷ
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <div class="col medium-6 small-6 large-6 form-group">
+                                    <select class="form-control custom-select" name="max_price">
+                                        <option value="0">Giá cao nhất</option>
+                                        <option value="1000000">
+                                            <strong>1</strong> triệu
+                                        </option>
+                                        <option value="100000000">
+                                            <strong>100</strong> triệu
+                                        </option>
+                                        <option value="200000000">
+                                            <strong>200</strong> triệu
+                                        </option>
+                                        <option value="500000000">
+                                            <strong>500</strong> triệu
+                                        </option>
+                                        <option value="1000000000">
+                                            <strong>1</strong> tỷ
+                                        </option>
+                                        <option value="3000000000">
+                                            <strong>3</strong> tỷ
+                                        </option>
+                                        <option value="5000000000">
+                                            <strong>5</strong> tỷ
+                                        </option>
+                                        <option value="8000000000">
+                                            <strong>8</strong> tỷ
+                                        </option>
+                                        <option value="10000000000">
+                                            <strong>10</strong> tỷ
+                                        </option>
+                                        <option value="20000000000">
+                                            <strong>20</strong> tỷ
+                                        </option>
+                                        <option value="35000000000">
+                                            <strong>35</strong> tỷ
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <div class="col medium-12 small-12 large-12 form-group mh-no-padding-bottom">
+                                    <button class="btn btn-primary btn-block" type="submit">Tìm kiếm!</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+        @{Html.RenderAction("TinhThanhMenu", "My_Partialview");}
+        @Html.Raw(Advertisings.Ad_vertisings.QuangCao("1"))
+    </div>
+</div>

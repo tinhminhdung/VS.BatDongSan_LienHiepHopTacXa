@@ -1,0 +1,142 @@
+﻿@{
+    ViewBag.Title = "Vidiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{Html.RenderAction("Nav_conten", "My_Partialview");}
+<div class="container">
+    <h1 class="title-head"><span>Ví tiền thành viên </span></h1>
+    <div class="row">
+        <div class="">
+            <div class="page-login margin-bottom-30">
+                <div id="login">
+                    <div id="pagelogin">
+
+
+
+                        <div style="clear: both"></div>
+                        <div class="main-item total-point">
+                            <label>Affiliate Url: </label>
+                            <br />
+                            @Html.TextBox("txtlinkgioithieu", (string)ViewBag.txtlinkgioithieu, new { placeholder = "", @class = "form-control form-control-lg" })
+                            <div class="affiliate_url_copy" onclick="affiliate_url_copy()">Click to copy</div>
+                        </div>
+                        <div style="clear: both; height:20px"></div>
+
+                        <asp:Literal ID="ltthongbao" runat="server"></asp:Literal>
+                        <div class="congtongvuietien">
+
+                            <div class="col-xs-6 col-sm-12 col-md-3 vithanhtoan">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col mt-0">
+                                                <h5 class="card-title">Tổng tiền</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="avatar">
+                                                    <div class="avatar-title rounded-circle bg-primary-dark">
+                                                        <i class="fa fa-credit-card" style="color: #fff"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h1 class="display-5 mt-1 mb-3">
+                                            @Html.Raw(ViewBag.lttongtien)
+                                        </h1>
+                                        <div class="mb-0">Tiền hoa hồng </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-12 col-md-3 vithanhtoan">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col mt-0">
+                                                <h5 class="card-title">Đã rút</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="avatar">
+                                                    <div class="avatar-title rounded-circle bg-primary-dark">
+                                                        <i class="fa fa-credit-card" style="color: #fff"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h1 class="display-5 mt-1 mb-3">
+                                            @Html.Raw(ViewBag.lttongtiendarut)
+                                        </h1>
+                                        <div class="mb-0">Tổng tiền đã rút </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @*<div class="col-xs-6 col-sm-12 col-md-3 vithanhtoan">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col mt-0">
+                                                <h5 class="card-title">Tổng F1</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="avatar">
+                                                    <div class="avatar-title rounded-circle bg-primary-dark">
+                                                        <i class="fa fa-credit-card" style="color: #fff"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h1 class="display-5 mt-1 mb-3">
+                                            @Html.Raw(ViewBag.ltttongF1)
+                                        </h1>
+                                        <div class="mb-0">Tổng thành viên trực tiếp </div>
+                                    </div>
+                                </div>
+                            </div>*@
+
+
+
+                            <div class="col-xs-6 col-sm-12 col-md-3 vithanhtoan">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col mt-0">
+                                                <h5 class="card-title">Thành viên H.Thống</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="avatar">
+                                                    <div class="avatar-title rounded-circle bg-primary-dark">
+                                                        <i class="fa fa-credit-card" style="color: #fff"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h1 class="display-5 mt-1 mb-3">
+                                            @Html.Raw(ViewBag.lttongthanhvien)
+                                        </h1>
+                                        <div class="mb-0">Tổng thành viên bên dưới mình</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style="clear: both"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+    function affiliate_url_copy() {
+        var copyText = document.getElementById("txtlinkgioithieu");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Coppy link thành công: " + copyText.value);
+    }
+</script>

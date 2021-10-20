@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{868F2289-02BF-4165-A96D-D44C3AFCF2F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Database">
+      <HintPath>..\VS.EDUCATION\bin\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Entity">
+      <HintPath>..\Entity\bin\Release\Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUser\FAdminUser.cs" />
+    <Compile Include="Dichvu\FDichvu.cs" />
+    <Compile Include="FLichSuRutTien\FLichSuRutTien.cs" />
+    <Compile Include="FLoiNhuanMuaBan\FLoiNhuanMuaBan.cs" />
+    <Compile Include="Gioithieu\FGioithieu.cs" />
+    <Compile Include="ModulControls\FModulControls.cs" />
+    <Compile Include="Nfooter\FNfooter.cs" />
+    <Compile Include="Faq\FFaq.cs" />
+    <Compile Include="Advertisings\FAdvertisings.cs" />
+    <Compile Include="Allbum\FAlbum.cs" />
+    <Compile Include="Allbum\FAlbum_Images.cs" />
+    <Compile Include="News\FComments.cs" />
+    <Compile Include="Contacts\FContacts.cs" />
+    <Compile Include="Sql\Sql.cs" />
+    <Compile Include="Thuvien\FDownload.cs" />
+    <Compile Include="Lang\FLan.cs" />
+    <Compile Include="Marketing\FMarketing.cs" />
+    <Compile Include="Menu\FMenu.cs" />
+    <Compile Include="News\FNews.cs" />
+    <Compile Include="News\FNews.Related.cs" />
+    <Compile Include="Setting\FSetting.cs" />
+    <Compile Include="Member\FMember.cs" />
+    <Compile Include="TinhThanh\FTinhthanh.cs" />
+    <Compile Include="Video\FVideoClip.cs" />
+    <Compile Include="WebStatistic\Fweb_statistic.cs" />
+    <Compile Include="Online\FYahooMessenger.cs" />
+    <Compile Include="Products\FCartDetail.cs" />
+    <Compile Include="Products\FCarts.cs" />
+    <Compile Include="Products\FProds_images.cs" />
+    <Compile Include="Products\FProducts.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

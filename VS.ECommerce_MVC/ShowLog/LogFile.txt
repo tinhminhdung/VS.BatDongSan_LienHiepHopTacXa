@@ -1,0 +1,10 @@
+20/1/2021 14:01:30: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Entity.Album, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[VS.ECommerce_MVC.Models.AlbumViewModel, VS.ECommerce_MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+20/1/2021 14:06:16: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Entity.VideoClip, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[VS.ECommerce_MVC.Models.VideoViewModel, VS.ECommerce_MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]

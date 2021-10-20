@@ -1,0 +1,43 @@
+﻿<div class="Register_Phone">
+    <div style="color: red" id="Thongbaop"></div>
+    <input name="txtdienthoai" type="email" placeholder="Nhập điện thoại của bạn" required id="txtdienthoai" class="input-group-field st-default-search-input search-text">
+    <span class="input-group-btn">
+        <input type="button" id="btRegister_Phone" name="button" value="Gửi" class="btn icon-fallback-text">
+    </span>
+</div>
+<script>
+    $("#btRegister_Phone").click(function () {
+        var regex_phone = /^(0|84|\+84)+(\d{9}|\d{10})$/;
+        debugger;
+        var Phone = $("#txtdienthoai").val();
+        if ($("#txtdienthoai").val() == "") {
+            $("#Thongbaop")[0].innerHTML = 'Vui lòng điền điện thoại của bạn.';
+        }
+        else if (!Phone.match(regex_phone)) {
+            $("#Thongbaop")[0].innerHTML = 'Điện thoại không đúng định dạng';
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: "/AllPage/Register_Phone",
+                data: "{VPhone:'" + Phone.toString() + "'}",
+                contentType: "application/json; charset=utf-8",
+                datatype: "json",
+                async: "true",
+                success: function (response) {
+                    // dạng thông báo lấy từ C# lên
+                    $("#Thongbaop").html(response);
+                },
+                error: function (response) {
+                    // alert(response.responseText);
+                },
+                beforeSend: function () {
+                    //  $body.addClass('loading');
+                },
+                complete: function () {
+                    // $body.removeClass("loading");
+                }
+            });
+        }
+    })
+</script>

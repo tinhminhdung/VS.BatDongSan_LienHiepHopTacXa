@@ -1,0 +1,16 @@
+﻿@using (Html.BeginForm("Box_TimKiem", "Ajax", new { }, FormMethod.Post, new { @class = "searchform" }))
+{
+        <div class="flex-row relative">
+        <div class="flex-col flex-grow">
+            <input type="search" class="search-field mb-0" name="txtkeyword" value="" id="txtkeyword" placeholder="Nhập từ khóa bạn muốn tìm" />
+        </div>
+        <div class="flex-col">
+            <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+                <i class="icon-search"></i>
+            </button>
+        </div>
+    </div>
+    <div class="live-search-results text-left z-top"></div>
+
+}
+

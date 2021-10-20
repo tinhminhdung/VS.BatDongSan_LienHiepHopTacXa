@@ -1,0 +1,14 @@
+﻿
+#toTop
+{
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}

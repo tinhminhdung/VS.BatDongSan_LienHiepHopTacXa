@@ -1,0 +1,113 @@
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Entity\bin\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Entity\bin\Debug\Entity.pdb
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Entity\obj\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\VS.EDUCATION\Entity\obj\Debug\Entity.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Entity\bin\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Entity\bin\Debug\Entity.pdb
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Entity\obj\Debug\Entity.dll
+F:\VISAN\SYSTEMNEW\DEMO\TUOI_THAN_TIEN\VS.EDUCATION\Entity\obj\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Entity\bin\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Entity\bin\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Entity\obj\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Duc\VS.EDUCATION\Entity\obj\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Entity\bin\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Entity\bin\Debug\Entity.pdb
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Entity\obj\Debug\Entity.dll
+D:\CongtyViSan\VS.HeThongMamNon\Thang09\VS.Lieugiai\Entity\obj\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\bin\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\bin\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\bin\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\bin\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commerce\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Entity\bin\Debug\Entity.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Entity\bin\Debug\Entity.pdb
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Entity\obj\Debug\Entity.dll
+D:\CongtyViSan\Thang11.2103\VS.BatDongSan\Entity\obj\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.pdb
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.dll
+E:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.pdb
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.dll
+D:\CodeProjech\VS.Ecommer_40\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2014\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\Thang07\VS.linhkienchatluong.vn\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2015\VS.E-Commer_OK\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_OK\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\Thang05\VS.Chuabenhtainha_sanpham\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_Chuan\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2016\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Entity\obj\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_Giaodien\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\bin\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\bin\Debug\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\bin\Debug\Entity.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\bin\Debug\Entity.pdb
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.dll
+F:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E_Commerce_Full_2018\Entity\obj\Debug\Entity.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\bin\Debug\Entity.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\bin\Debug\Entity.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.dll
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.pdb
+F:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\bin\Debug\Entity.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\bin\Debug\Entity.pdb
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.dll
+E:\Congty_APhuc\VS.E_Commerce_Global_2019\Entity\obj\Debug\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\bin\Debug\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\bin\Debug\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Debug\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Entity\obj\Debug\Entity.pdb

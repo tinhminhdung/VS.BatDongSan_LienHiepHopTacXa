@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "ChiTietDonHang";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<section class="login page_order_account">
+    <div class="">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 top_order_title">
+                <h1 class="title-headding order-headding">Đơn hàng #@ViewBag.ltmadonhang</h1>
+                <span class="note order_date">
+                    <i>
+                        Ngày tạo — @ViewBag.ltngaydathang
+                    </i>
+                    <a href="/lich-su-mua-hang.html"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Quay lại trang tài khoản</a>
+                </span>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 body_order">
+                <div id="order_payment" class="span12 box-address margin-top-20">
+                    <div class="box-header">
+                        <h2 class="title-head">Địa chỉ giao hàng</h2>
+                        <br />
+                        <p>
+                            <span class="note">Trạng thái thanh toán:</span>
+                            <i i="" class="status_pending">
+                                @ViewBag.lttrangthai
+                            </i>
+                        </p>
+                    </div>
+                    <div class="address note">
+                        <p>
+                            <i class="fa fa-user"></i>
+                            @ViewBag.lthovaten
+                        </p>
+                        <p>
+                            <i class="fa fa-map-marker"></i>
+                            @ViewBag.ltdiachi
+                        </p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            @ViewBag.ltdienthoai
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="table-responsive-block margin-top-20 table-responsive">
+                    <table id="order_details" class="table table-cart lichsumuahang">
+                        <thead class="thead-default">
+                            <tr>
+                                <th style="border-bottom: none; text-align:center">STT</th>
+                                <th style="border-bottom: none; text-align: center">Mã sản phẩm</th>
+                                <th style="border-bottom: none; text-align: center">Sản phẩm</th>
+                                <th style="border-bottom: none; text-align: center">Giá</th>
+                                <th style="border-bottom: none; text-align: center">Số lượng</th>
+                                <th style="border-bottom: none; text-align: center">Tổng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @{
+                                int i = 1;
+                                List<Entity.CartDetail> Chitiets = ViewBag.Chitiet as List<Entity.CartDetail>;
+                                if (Chitiets != null)
+                                {
+                                    foreach (var item in Chitiets)
+                                    {
+                                        <tr style="height: 20px" class="tr_while" onmouseover="this.className='tr_while_over'" onmouseout="this.className='tr_while'">
+                                            <td style="padding-left: 5px; text-align: center !important" class="cartadmin">@i</td>
+                                            <td style="padding-left: 5px; text-align: left !important" class="cartadmin">@AllQuery.MorePro.Codes(item.ipid.ToString()) </td>
+                                            <td style="padding-left: 5px; text-align: left !important" class="cartadmin">@item.Name</td>
+                                            <td style="padding-left: 5px; text-align: center !important" class="cartadmin">@AllQuery.MorePro.Detail_Price(item.Price.ToString()) @MoreAll.Other.Giatri("Dongiapro")</td>
+                                            <td style="padding-left: 5px; text-align: center !important" class="cartadmin">@item.Quantity </td>
+                                            <td style="padding-left: 5px; text-align: center !important" class="cartadmin">@AllQuery.MorePro.Detail_Price(item.Money.ToString()) @MoreAll.Other.Giatri("Dongiapro") </td>
+                                        </tr>
+                                        i++;
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-xs-12 oder_total_monney">
+                <table class="table  totalorders">
+                    <tfoot>
+
+                        <tr class="order_summary note" style="color: red;">
+                            <td class="fix-width-200" colspan="">Tổng tiền bằng chữ:</td>
+                            <td class="total money right"><strong style="color: #fe3232">@ViewBag.lttongtienbangchu </strong></td>
+                        </tr>
+
+                        <tr class="order_summary order_total">
+                            <td class="fix-width-200">Tổng tiền:</td>
+                            <td class="right"><strong>@ViewBag.lttongtien₫ </strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    .lichsumuahang {
+        border-top: 1px solid #d7d7d7;
+    }
+</style>

@@ -1,0 +1,87 @@
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\bin\Release\Framework.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\bin\Release\Framework.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\bin\Release\Database.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\bin\Release\Entity.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\bin\Release\Entity.pdb
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\obj\Release\Framework.dll
+D:\CongtyGooDeign\NAM2017\Code Chuẩn\VS.E-Commer_ChuanUrl_FCK\Framework\obj\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\bin\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\bin\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\obj\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\obj\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\bin\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\bin\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\obj\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_LOGIN_THANHTOAN\Framework\obj\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+E:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+H:\Congty_APhuc\VS.ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+H:\Code_Phat_Trien_Chuan\MVC5_2020_ECommerce_MVC\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojAssemblyReference.cache
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csproj.CoreCompileInputs.cache
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csproj.CopyComplete
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+C:\Users\Dung\Desktop\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+H:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.dll
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Framework.pdb
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.dll
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\bin\Release\Entity.pdb
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.dll
+F:\Code_Phat_Trien_Chuan\VS.ECommerce_MVC_2020_MutilNhom\VS.ECommerce_MVC_2020\Framework\obj\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\bin\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\bin\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\obj\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_DangTin\Framework\obj\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\bin\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\bin\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\obj\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_HoaHong\Framework\obj\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\bin\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\bin\Release\Framework.pdb
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\bin\Release\Entity.dll
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\bin\Release\Entity.pdb
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\obj\Release\Framework.dll
+F:\AGVietNam\VS.BatDongSan_LienHiepHopTacXa\Framework\obj\Release\Framework.pdb

@@ -1,0 +1,125 @@
+﻿@{
+    string ssl = "http://";
+    string hp = "";
+    string language = MoreAll.Captionlanguage.SetLanguage();
+    //string bc = Request.Url.Authority + Request.RawUrl.ToString();//"localhost:63136/danh-muc/noi-that-phong-khach"
+    //string Url = Request.Url.ToString();//"http://localhost:63136/danh-muc/noi-that-phong-khach"
+    //string Host = Request.Url.Authority + Request.Url.Host.ToString();//"localhost:63136localhost"
+    string RawUrl = Request.RawUrl.ToString();//"/danh-muc/noi-that-phong-khach"
+    hp = Removelink.RemoveUrl(RawUrl);
+    if (Commond.Setting("SSL").Equals("1"))
+    {
+        ssl = "https://";
+    }
+    // Nếu là trang chủ
+    if (hp == "/")
+    {
+        ViewBag.Title = MoreAll.MoreAll.GetCache("Title", System.Web.HttpContext.Current.Cache["Title"] != null ? "" : VS.ECommerce_MVC.App.Template.WebTitle(RawUrl));
+    }
+    else
+    {
+        ViewBag.Title = VS.ECommerce_MVC.App.Template.WebTitle(RawUrl);
+    }
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @{
+        if (hp == "/")
+        {
+            @Html.Raw(MoreAll.MoreAll.GetCache("Header", System.Web.HttpContext.Current.Cache["Header"] != null ? "" : Home.Header(ssl, Request.Url.Host, hp, Commond.RequestMenu(hp), Request.RawUrl)));
+        }
+        else
+        {
+            @Html.Raw(Home.Header(ssl, Request.Url.Host, hp, Commond.RequestMenu(hp), Request.RawUrl))
+        }
+    }
+    @*nén css thành 1 file*@
+    <link type="text/css" media="all" href="/Resources/wp-content/cache/breeze-minification/css/breeze_8a421144d3cf7b662275d025bc4d2057.css" rel="stylesheet" />
+    <link href="~/Resources/wp-content/themes/flatsome/assets/css/fl-iconsae34.css" rel="stylesheet" />
+    <link href="~/Resources/wp-content/themes/flatsome/assets/css/flatsome2e9d.css" rel="stylesheet" />
+    <link rel='stylesheet' id='flatsome-googlefonts-css' href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C700%2Cregular%2C500%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+    <link href="/Resources/css/Css_All.css" rel="stylesheet" />
+    <link href="/Resources/font-awesome/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Resources/css/Mobile.css" rel="stylesheet" />
+    @*<script src="/Resources/js/jquery-1.9.1.js"></script>*@
+    <script src="/Resources/js/jquery-1.7.1.min.js"></script>
+    <link href="/Resources/ResponsiveNews/css/flexnav.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="~/Resources/css/Mobile.css" rel="stylesheet" />
+</head>
+<body data-rsssl=1 class="home page-template page-template-page-blank page-template-page-blank-php page page-id-1210 lightbox nav-dropdown-has-shadow nav-dropdown-has-border mobile-submenu-slide mobile-submenu-slide-levels-1">
+    <div id="wrapper">
+        @*@Html.Partial("~/Views/Members/XinChao.cshtml")*@
+        @Html.Raw(Home.Body(ssl, language))
+<div class="tongtrang">
+    @{Html.RenderAction("Header", "My_Partialview");}
+    @RenderBody()
+</div>
+        @{Html.RenderAction("Footer", "My_Partialview");}
+
+        @Html.Raw(Commond.Setting("Livechat"))
+        @if (Request.RawUrl.ToString() == "/")
+        {
+            <h1 style="display: none">@Commond.Setting("webname")</h1>
+        }
+    </div>
+
+    @RenderSection("jsFooter", required: false)
+    
+    <script src="/Resources/Responsive/js/jquery.flexnav.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".flexnav").flexNav();
+        });
+        function openNav() { document.getElementById("mySidenav").style.width = "250px"; }
+        function closeNav() { document.getElementById("mySidenav").style.width = "0"; }
+    </script>
+    <script type="text/javascript" charset="utf-8">
+        function Showthanhvien() {
+            var name = 'Showthanhvien';
+            var hidden = document.getElementById(name);
+            if (hidden.style.display == 'none') {
+                hidden.style.display = 'block';
+                document.getElementById("overlay").style.display = "block";
+            }
+            else {
+                hidden.style.display = 'none';
+                document.getElementById("overlay").style.display = "none";
+            }
+        }
+        $(document).ready(function () {
+            $('#overlay').click(function () {
+                var hidden = document.getElementById('ShowthanhvienMB');
+                hidden.style.display = 'none';
+                $('#overlay').fadeOut();
+                return false;
+            });
+        });
+        function ShowthanhvienMB() {
+            var name = 'ShowthanhvienMB';
+            var hidden = document.getElementById(name);
+            if (hidden.style.display == 'none') {
+                hidden.style.display = 'block';
+                document.getElementById("overlay").style.display = "block";
+            }
+            else {
+                hidden.style.display = 'none';
+                document.getElementById("overlay").style.display = "none";
+            }
+        }
+        $(document).ready(function () {
+            $('#overlay').click(function () {
+                var hidden = document.getElementById('ShowthanhvienMB');
+                hidden.style.display = 'none';
+                $('#overlay').fadeOut();
+                return false;
+            });
+        });
+    </script>
+    <div id="overlay"></div>
+    <div style="display: none;" id="fade"></div>
+</body>
+</html>

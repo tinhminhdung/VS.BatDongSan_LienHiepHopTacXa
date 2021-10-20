@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string language = MoreAll.Captionlanguage.SetLanguage();
+}
+@section jsFooter{
+    <script src="~/Resources/ScripMvc/DangKy.js"></script>
+}
+@{Html.RenderAction("Nav_conten", "My_Partialview");}
+
+@using (Html.BeginForm())
+{
+      <div class="container">
+        <h1 class="title-head"><span>Tạo tài khoản</span></h1>
+        <div class="row">
+            <div class="col-lg-6 coldangky">
+                <div class="page-login margin-bottom-30">
+                    <div id="login">
+                        <span>
+                            Nếu chưa có tài khoản vui lòng đăng ký tại đây
+                        </span>
+
+                        <div class="form-signup">
+                            <div style="padding: 10px 10px 10px 10px; color:red">@ViewBag.ThongBao</div>
+                        </div>
+                        <div class="form-signup clearfix">
+                            <fieldset class="form-group">
+                                <label class="">@Commond.label("l_name"): </label>
+                                @Html.TextBox("txtHoTen", "", new { placeholder = @Commond.label("l_name"), @class = "form-control form-control-lg" })
+                                <p style="color:red;" id="TB_TenKH"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label class="">Email:</label>
+                                @Html.TextBox("txtemail", "", new { placeholder = "Email" })
+                                <p style="color:red;" id="TB_Email"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label class="">Phone:</label>
+                                @Html.TextBox("txtphone", "", new { placeholder = "Phone" })
+                                <p style="color:red;" id="TB_SoDienThoai"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label class="">@Commond.label("lt_password"):</label>
+                                @Html.Password("txtmatkhau", "", new { placeholder = @Commond.label("lt_password") })
+                                <p style="color:red;" id="TB_MatKhau"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label class="">Người giới thiệu:</label>
+                                @Html.TextBox("txtnguoigioithieu", (string)ViewBag.txtnguoigioithieu, new { placeholder = "Số điện thoại người giới thiệu", @class = "form-control form-control-lg nguoigioithieu" })
+                                <span style=" color:red">@Html.Raw(ViewBag.ltgoithieu)</span>
+                                <p style="color:red;" id="TB_DiaChi"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label class="">@Commond.label("l_address"):</label>
+                                @Html.TextBox("txtaddress", "", new { placeholder = @Commond.label("l_address") })
+                                <p style="color:red;" id="TB_DiaChi"></p>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <input id="hdlanguage" name="hdlanguage" type="hidden" value="@language" />
+                                <input type="submit" value="@Commond.label("l_register")" onclick="return DangKyThanhVien();" class="btnmvc" />
+                                <a href="/Dang-nhap.html" class="btn-link-style btn-register" style="margin-left: 20px; text-decoration: underline; color: #f15973;">Đăng nhập</a>
+                            </fieldset>
+                        </div>
+
+
+                                </div>
+                            </div>
+                                 </div>
+                 
+                </div>
+            </div>
+    @Html.Raw(ViewBag.style)
+}

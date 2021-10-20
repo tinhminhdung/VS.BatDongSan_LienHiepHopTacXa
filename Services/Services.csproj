@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B83EFC42-8DB7-4B22-B230-044D6EBADE71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Services</RootNamespace>
+    <AssemblyName>Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\VS.EDUCATION\bin\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreAll">
+      <HintPath>..\MoreAll\bin\Debug\MoreAll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Dichvu\SDichvu.cs" />
+    <Compile Include="FProducts\SoSanhCarts.cs" />
+    <Compile Include="Gioithieu\SGioithieu.cs" />
+    <Compile Include="LoiNhuanMuaBan\SLoiNhuanMuaBan.cs" />
+    <Compile Include="ModulControls\SModulControls.cs" />
+    <Compile Include="Nfooter\SNfooter.cs" />
+    <Compile Include="Faq\SFaq.cs" />
+    <Compile Include="FProducts\SessionCarts.cs" />
+    <Compile Include="FProducts\SProduct_images.cs" />
+    <Compile Include="FProducts\SProduct.cs" />
+    <Compile Include="FProducts\SCartDetail.cs" />
+    <Compile Include="FProducts\SCarts.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdminUser\SAdminUser.cs" />
+    <Compile Include="Advertisings\SAdvertisings.cs" />
+    <Compile Include="Allbum\SAlbum.cs" />
+    <Compile Include="Allbum\SAlbum_Images.cs" />
+    <Compile Include="News\SComments.cs" />
+    <Compile Include="Contacts\SContacts.cs" />
+    <Compile Include="SLichSuRutTien\SLichSuRutTien.cs" />
+    <Compile Include="Thuvien\SDownload.cs" />
+    <Compile Include="Lang\SLang.cs" />
+    <Compile Include="Marketting\SMarketing.cs" />
+    <Compile Include="Menu\SMenu.cs" />
+    <Compile Include="News\SNews.cs" />
+    <Compile Include="News\SNews_Related.cs" />
+    <Compile Include="Setting\SSetting.cs" />
+    <Compile Include="Member\SMember.cs" />
+    <Compile Include="TinhThanhs\STinhthanh.cs" />
+    <Compile Include="Video\SVideoClip.cs" />
+    <Compile Include="WebStatistic\SWebStatistic.cs" />
+    <Compile Include="Online\SYahoo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{4eba4919-34a5-404a-9141-d22ad05841de}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{868F2289-02BF-4165-A96D-D44C3AFCF2F5}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

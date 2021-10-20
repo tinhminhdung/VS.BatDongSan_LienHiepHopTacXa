@@ -1,0 +1,186 @@
+﻿<section class="section" id="section_1351563051">
+    <div class="bg section-bg fill bg-fill  "></div>
+    <div class="section-content relative">
+        <div class="row row-small" id="row-1139099534">
+            <div id="col-920262798" class="col mh-no-padding-bottom small-12 large-12">
+                <div class="col-inner dark">
+                    <form class="mh-advanced-search mh-no-margin-bottom" action="/tim-kiem.html" method="GET">
+                        <div class="row row-small align-bottom">
+                            <div class="col medium-12 small-12 large-6">
+                                <div class="col-inner mh-search-type">
+                                    <label class="demand-radio">
+                                        <input name="demand" type="radio" value="792" checked="" onclick="ShowNhaDatBan()">
+                                        <span class="name">Nhà đất bán</span>
+                                    </label>
+                                    <label class="demand-radio">
+                                        <input name="demand" type="radio" value="794" onclick="ShowNhaDatChoThue()">
+                                        <span class="name">Nhà đất cho thuê</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col medium-12 small-12 large-6 hide-for-medium">
+                                <div class="col-inner text-right">
+                                    @*<p class="mh-no-margin-bottom notice">
+                                        Hiện có <strong class="h3 font-weight-bold mb-0">36</strong> thành viên,
+                                        <strong class="slider_count_number h3 font-weight-bold mb-0">
+                                            <a href="/" title="Tin mua bán/cho thuê nhà đất">11</a>
+                                        </strong> tin đăng
+                                    </p>*@
+                                </div>
+                            </div>
+                            <div class="col medium-12 small-12 large-10">
+                                <div class="col-inner">
+                                    <input class="form-control" type="text" name="key_word" placeholder="Từ khóa" />
+                                </div>
+                            </div>
+                            <div class="col medium-12 small-12 large-2 hide-for-medium">
+                                <div class="col-inner">
+                                    <button class="btn btn-primary btn-block" type="submit">Tìm kiếm!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-small large-columns-7 medium-columns-3 small-columns-2">
+                            <div class="col form-group">
+                                <select class="form-control custom-select" name="category" id="category">
+                                    @Html.Raw(ViewBag.NhaDatBan)
+                                </select>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    @Html.Raw(ViewBag.ddlcountry)
+                                </div>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    <select class="form-control custom-select" id="ddlState" name="ddlState">
+                                        <option value="">Chọn quận/huyện</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    <select class="form-control custom-select" name="PhuongXa" id="PhuongXa">
+                                        <option value="">Chọn phường/xã</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    <select class="form-control custom-select" name="building_orientation" id="building_orientation">
+                                        <option value="0">Chọn hướng nhà</option>
+                                        <option value="1">Đông</option>
+                                        <option value="2">Tây</option>
+                                        <option value="3">Nam</option>
+                                        <option value="4">Bắc</option>
+                                        <option value="5">Đông bắc</option>
+                                        <option value="6">Đông nam</option>
+                                        <option value="7">Tây bắc</option>
+                                        <option value="8">Tây nam</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    <select class="form-control custom-select" name="min_price" id="min_price">
+                                        <option value="0">Giá thấp nhất</option>
+                                        <option value="1000000">
+                                            <strong>1</strong> triệu
+                                        </option>
+                                        <option value="100000000">
+                                            <strong>100</strong> triệu
+                                        </option>
+                                        <option value="200000000">
+                                            <strong>200</strong> triệu
+                                        </option>
+                                        <option value="500000000">
+                                            <strong>500</strong> triệu
+                                        </option>
+                                        <option value="1000000000">
+                                            <strong>1</strong> tỷ
+                                        </option>
+                                        <option value="3000000000">
+                                            <strong>3</strong> tỷ
+                                        </option>
+                                        <option value="5000000000">
+                                            <strong>5</strong> tỷ
+                                        </option>
+                                        <option value="8000000000">
+                                            <strong>8</strong> tỷ
+                                        </option>
+                                        <option value="10000000000">
+                                            <strong>10</strong> tỷ
+                                        </option>
+                                        <option value="20000000000">
+                                            <strong>20</strong> tỷ
+                                        </option>
+                                        <option value="35000000000">
+                                            <strong>35</strong> tỷ
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col form-group">
+                                <div class="col-inner">
+                                    <select class="form-control custom-select" name="max_price" id="max_price">
+                                        <option value="0">Giá cao nhất</option>
+                                        <option value="1000000">
+                                            <strong>1</strong> triệu
+                                        </option>
+                                        <option value="100000000">
+                                            <strong>100</strong> triệu
+                                        </option>
+                                        <option value="200000000">
+                                            <strong>200</strong> triệu
+                                        </option>
+                                        <option value="500000000">
+                                            <strong>500</strong> triệu
+                                        </option>
+                                        <option value="1000000000">
+                                            <strong>1</strong> tỷ
+                                        </option>
+                                        <option value="3000000000">
+                                            <strong>3</strong> tỷ
+                                        </option>
+                                        <option value="5000000000">
+                                            <strong>5</strong> tỷ
+                                        </option>
+                                        <option value="8000000000">
+                                            <strong>8</strong> tỷ
+                                        </option>
+                                        <option value="10000000000">
+                                            <strong>10</strong> tỷ
+                                        </option>
+                                        <option value="20000000000">
+                                            <strong>20</strong> tỷ
+                                        </option>
+                                        <option value="35000000000">
+                                            <strong>35</strong> tỷ
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col show-for-medium">
+                                <div class="col-inner">
+                                    <button class="btn btn-primary btn-block" type="submit">Tìm kiếm!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        #section_1351563051 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            min-height: 220px;
+        }
+
+            #section_1351563051 .bg.section-bg.fill.bg-fill {
+                opacity: inherit;
+                background-image: url(/Resources/wp-content/uploads/2019/07/bg-our-services.jpg);
+            }
+    </style>
+</section>
+

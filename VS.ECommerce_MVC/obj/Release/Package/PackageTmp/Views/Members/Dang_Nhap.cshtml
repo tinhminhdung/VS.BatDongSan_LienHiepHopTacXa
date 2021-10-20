@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="~/Resources/ScripMvc/DangNhap.js"></script>
+}
+@*đăng ký đăng nhập hay có cả ảnh đại diện , thì lấy code ở trang 3mpic.vn/ 02/2020 The Anh*@
+@{Html.RenderAction("Nav_conten", "My_Partialview");}
+@using (Html.BeginForm("Dang_Nhap", "Members", new { returnUrl = @ViewBag.ReturnUrl }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <h1 class="title-head"><span>Tài khoản</span></h1>
+        <div class="row">
+            <div class="col-lg-6 coldangky">
+                <div class="page-login margin-bottom-30">
+                    <div id="login">
+                        <span>
+                            Nếu bạn đã có tài khoản, đăng nhập tại đây.
+                        </span>
+
+                        <div class="form-signup">
+                            <div style="padding: 10px 10px 10px 10px; color:red">@ViewBag.ThongBao</div>
+                        </div>
+                        <div class="form-signup clearfix">
+                            <fieldset class="form-group">
+                                <label>Số điện thoại: </label>
+                                @Html.TextBox("txttendangnhap", "", new { placeholder = "Số điện thoại", @class = "form-control form-control-lg" })
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label>Mật khẩu: </label>
+                                @Html.Password("txtmatkhau", "", new { placeholder = Commond.label("lt_password"), @class = "form-control form-control-lg" })
+                            </fieldset>
+                            <div class="" style="margin-top: 25px;">
+                                <input type="submit" value="Đăng nhập" onclick="return DangNhapThanhVien();" class="btnmvc" />
+                                <br /><br />
+                                <div>
+                                    <a href="/Dang-ky.html" class="btn-link-style btn-register" style="margin-left: 0px; text-decoration: underline; color: #f15973;">Đăng ký</a>
+                                    <a href="/Quen-mat-khau.html" class="btn-link-style btn-register" style=" margin-left: 20px; color: #f15973">@Commond.label("Quenmk")?</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="social-login" style="margin-top: 30px; clear: both;">
+                    <p>
+                        Đăng nhập với Facebook và Google
+                    </p>
+                    <div class="button-social">
+                        <button type="button" class="btsocialloginfb">Facebook</button>
+                    </div>
+                    <div class="button-social">
+                        <button type="button" class="btsociallogingg">Google</button>
+                    </div>
+                </div>*@
+                </div>
+            </div>
+            <div class="clearfix">
+
+            </div>
+
+        </div>
+    </div>
+}
