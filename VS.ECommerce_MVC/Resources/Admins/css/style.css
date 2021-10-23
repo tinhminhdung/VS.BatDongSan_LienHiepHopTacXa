@@ -896,3 +896,6 @@ label {display: unset!important;}
 .dakickhoat{  display: inline-block; font-size: 12px; text-align: center; padding: 7px; margin: 5px; color: #ffff; background: #008100; border-radius: 3px;}
 .chuakh{ color: #ed1c24; }
 .Showborderdo { display: inline-block; font-size: 11px; text-align: center; padding: 2px; margin: 4px; color: #ffff !important; background: #ed1c24; border-radius: 3px; padding-left: 4px !important; }
+
+.ShowCapbac4{ display: inline-block; font-size: 12px; text-align: center; padding: 7px; margin: 5px; color: #ffff; background: #8fad0e; border-radius: 3px;}
+.ShowCapbac5{ display: inline-block; font-size: 12px; text-align: center; padding: 7px; margin: 5px; color: #ffff; background: #303030; border-radius: 3px;}

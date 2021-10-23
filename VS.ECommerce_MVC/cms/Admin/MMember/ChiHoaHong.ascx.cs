@@ -50,7 +50,7 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember
                 SinhHH.HoaHongF(hdThanhVienMua.Value, hdThanhVienBan.Value, IDMaDonTao, SoTien.Text);
 
                 this.binddata();
-                Response.Write("<script type=\"text/javascript\">alert('Duyệt đơn hàng thành công với mã đơn hàng #" + IDMaDonTao + ".');window.location.href='" + Request.RawUrl.ToString() + "'; </script>");
+                Response.Write("<script type=\"text/javascript\">alert('Duyệt thành công với mã đơn hàng #" + IDMaDonTao + ".');window.location.href='" + Request.RawUrl.ToString() + "'; </script>");
             }
             else
             {

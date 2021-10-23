@@ -29,6 +29,7 @@ namespace VS.E_Commerce
                 List<Entity.Member> table = SMember.Name_Text("select * from Members where [Key]='" + U1.Trim().ToLower() + "' and ID=" + (ID.Trim().ToLower()) + " ");// and DuyetTienDanap=1 phải nạp tiền xong mới cho đăng nhập
                 if (table.Count > 0)
                 {
+                    ChiaHoaHong.CapNhatTrangThai(table[0].ID.ToString());
                     MoreAll.MoreAll.SetCookie("Members", table[0].DienThoai.ToString(), 5000);
                     MoreAll.MoreAll.SetCookie("MembersUser", table[0].HoVaTen.ToString().ToLower(), 5000);
                     MoreAll.MoreAll.SetCookie("MembersID", table[0].ID.ToString(), 5000);

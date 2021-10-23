@@ -77,8 +77,13 @@
                 Địa chỉ:<span style="color:#444444; padding-left:40px;font-weight:bold"><%#DataBinder.Eval(Container.DataItem, "DiaChi")%></span><br />
                 Điện thoại:<span style="color:#444444; padding-left:22px;font-weight:bold"><%#DataBinder.Eval(Container.DataItem, "DienThoai")%></span><br />
                 Email:<span style="color:#444444; padding-left:15px;font-weight:bold"><%#DataBinder.Eval(Container.DataItem, "Email")%></span><br />
+
+                  Người giới thiệu:<span style="color:#444444; padding-left:15px;font-weight:bold"> <%#Commond.ShowThanhVien_Member(DataBinder.Eval(Container.DataItem,"GioiThieu").ToString())%></span><br />
+
                   Tổng tiền:<span style="color:#444444; padding-left:15px;font-weight:bold" class="Showborderdo"><%#AllQuery.MorePro.FormatMoney_VND( DataBinder.Eval(Container.DataItem, "TienHoaHong").ToString())%></span><br />
                    Tổng rút:<span style="color:#444444; padding-left:15px;font-weight:bold" class="Showborderdo"><%#AllQuery.MorePro.FormatMoney_VND(DataBinder.Eval(Container.DataItem, "TongTienDaRut").ToString())%></span><br />
+                  Tổng tiền đã mua:<span style="color:#444444; padding-left:15px;font-weight:bold" class="Showborderdo"><%#AllQuery.MorePro.FormatMoney_VND( DataBinder.Eval(Container.DataItem, "TongTienDaMua").ToString())%></span><br />
+
             </td>
            <td style="text-align: center;">
              <%#MoreAll.MoreAll.FormatDate(Eval("NgayTao").ToString())%>

@@ -289,6 +289,7 @@ namespace VS.ECommerce_MVC.Controllers
                     {
                         obj.MTRee = mtrees.Replace("|0|", "|");
                     }
+                    obj.TongTienDaMua = "0";
                     db.Members.InsertOnSubmit(obj);
                     db.SubmitChanges();
 
@@ -1289,7 +1290,7 @@ namespace VS.ECommerce_MVC.Controllers
                     }
                     else
                     {
-                       // ViewBag.ThongBao = "Bạn ko có quyền xem ID này. Vì ID này không nằm trong hệ thống của bạn";
+                        // ViewBag.ThongBao = "Bạn ko có quyền xem ID này. Vì ID này không nằm trong hệ thống của bạn";
                         //WebMsgBox.Show("Bạn ko có quyền xem ID này. Vì ID này không nằm trong hệ thống của bạn");
                     }
                 }
@@ -1633,6 +1634,7 @@ namespace VS.ECommerce_MVC.Controllers
                 Member table = db.Members.SingleOrDefault(p => p.ID == int.Parse(MoreAll.MoreAll.GetCookies("MembersID").ToString()));
                 if (table != null)
                 {
+                    ChiaHoaHong.CapNhatTrangThai(table.ID.ToString());
                     if (table.TienHoaHong.ToString() == "0")
                     {
                         ViewBag.lttongtien = "0";
@@ -1665,8 +1667,10 @@ namespace VS.ECommerce_MVC.Controllers
                     }
                     catch (Exception)
                     { }
+
+                    ViewBag.ltcapbac = Commond.ShowCapbacView(table.CapBac.ToString());
                     //   ViewBag.ltttongF1 = table.F1.ToString();
-                    ViewBag.txtlinkgioithieu = "https://bds3mien.vn/dang-ky.html?info=" + table.DienThoai.ToString() + "";
+                    ViewBag.txtlinkgioithieu = "https://lienhiephoptac.vn/dang-ky.html?info=" + table.DienThoai.ToString() + "";
                 }
             }
         }

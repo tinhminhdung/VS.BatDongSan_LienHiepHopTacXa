@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Vs.BatDongSan_DangTin" Class="DatalinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-MJAA1Q3\SQLEXPRESS;Initial Catalog=Vs.BatDongSan_DangTin;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Vs_BatDongSan_DangTinConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="WebSettings" ConnectionString="Data Source=VIETDUNG\SQLEXPRESS;Initial Catalog=Vs.BatDongSan_DangTin;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Vs_BatDongSan_DangTinConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.AdminUser" Member="AdminUsers">
     <Type Name="AdminUser">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -570,6 +570,20 @@
       <Column Name="IDDonHang" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
+  <Table Name="dbo.LoiNhuanMuaBan" Member="LoiNhuanMuaBans">
+    <Type Name="LoiNhuanMuaBan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDThanhVienMua" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDDonHang" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TongTien" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TongTienCon" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TongTienDaChia" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="MTreeIDThanhVienMua" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="NguoiDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
   <Table Name="dbo.Members" Member="Members">
     <Type Name="Member">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -592,20 +606,8 @@
       <Column Name="CapBac" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="ThuPhi" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="DaBanDuocSanPham" Type="System.Int32" DbType="Int" CanBeNull="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.LoiNhuanMuaBan" Member="LoiNhuanMuaBans">
-    <Type Name="LoiNhuanMuaBan">
-      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="IDThanhVienMua" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="IDDonHang" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="MoTa" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="TongTien" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="TongTienCon" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="TongTienDaChia" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="MTreeIDThanhVienMua" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="NguoiDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IDLuuTam" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TongTienDaMua" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
   <Function Name="dbo.[S-Members_List_TongThanhVien_Tree]" Method="S_Members_List_TongThanhVien_Tree">

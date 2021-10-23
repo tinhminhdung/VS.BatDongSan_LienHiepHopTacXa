@@ -72,6 +72,54 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember
                     {
                         this.Nhanvien.Text = its.Value;
                     }
+                    if (its.Properties == "NhanVienTimRa1F1")
+                    {
+                        this.NhanVienTimRa1F1.Text = its.Value;
+                    }
+                    if (its.Properties == "NhanVienTongTien")
+                    {
+                        this.NhanVienTongTien.Text = its.Value;
+                    }
+
+
+                    if (its.Properties == "TruongNhomKDTongTien")
+                    {
+                        this.TruongNhomKDTongTien.Text = its.Value;
+                    }
+                    if (its.Properties == "TruongNhomKDF1")
+                    {
+                        this.TruongNhomKDF1.Text = its.Value;
+                    }
+
+
+                    if (its.Properties == "TruongPhongKinhDoanhTongTien")
+                    {
+                        this.TruongPhongKinhDoanhTongTien.Text = its.Value;
+                    }
+                    if (its.Properties == "TruongPhongKinhDoanhF1")
+                    {
+                        this.TruongPhongKinhDoanhF1.Text = its.Value;
+                    }
+
+
+                    if (its.Properties == "PhoGiamDocTien")
+                    {
+                        this.PhoGiamDocTien.Text = its.Value;
+                    }
+                    if (its.Properties == "PhoGiamDocF1")
+                    {
+                        this.PhoGiamDocF1.Text = its.Value;
+                    }
+
+
+                    if (its.Properties == "GiamDocKinhDoanhTien")
+                    {
+                        this.GiamDocKinhDoanhTien.Text = its.Value;
+                    }
+                    if (its.Properties == "GiamDocKinhDoanhF1")
+                    {
+                        this.GiamDocKinhDoanhF1.Text = its.Value;
+                    }
                 }
             }
 
@@ -126,6 +174,58 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember
                 obj.Lang = lang;
                 obj.Properties = "PhoGiamDoc";
                 obj.Value = PhoGiamDoc.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "NhanVienTimRa1F1";
+                obj.Value = NhanVienTimRa1F1.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "NhanVienTongTien";
+                obj.Value = NhanVienTongTien.Text;
+                SSetting.UPDATE(obj);
+
+
+                obj.Lang = lang;
+                obj.Properties = "TruongNhomKDTongTien";
+                obj.Value = TruongNhomKDTongTien.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "TruongNhomKDF1";
+                obj.Value = TruongNhomKDF1.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "TruongPhongKinhDoanhTongTien";
+                obj.Value = TruongPhongKinhDoanhTongTien.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "TruongPhongKinhDoanhF1";
+                obj.Value = TruongPhongKinhDoanhF1.Text;
+                SSetting.UPDATE(obj);
+
+
+                obj.Lang = lang;
+                obj.Properties = "PhoGiamDocTien";
+                obj.Value = PhoGiamDocTien.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "PhoGiamDocF1";
+                obj.Value = PhoGiamDocF1.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "GiamDocKinhDoanhF1";
+                obj.Value = GiamDocKinhDoanhF1.Text;
+                SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "GiamDocKinhDoanhTien";
+                obj.Value = GiamDocKinhDoanhTien.Text;
                 SSetting.UPDATE(obj);
 
                 this.binddata();

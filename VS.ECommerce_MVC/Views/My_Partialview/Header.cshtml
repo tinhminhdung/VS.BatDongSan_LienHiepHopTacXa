@@ -1,9 +1,22 @@
-﻿
-
+﻿@if (MoreAll.MoreAll.GetCookies("Members").ToString() == "")
+{
+    <div class="header-button header-dangtin Mobile">
+        <a href="/Dang-ky.html" class="button primary">
+            <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng ký</span>
+        </a>
+        <a href="/Dang-nhap.html" class="button primary">
+            <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng nhập</span>
+        </a>
+    </div>
+}
+else
+{
+    <div style="text-align: center;" class="Mobile"><a onclick="openNav()" style=" color:red; font-weight:bold; text-align:center; font-size:14px;"><i class="fa fa-user"></i> @MoreAll.MoreAll.GetCookies("MembersUser").ToString()</a></div>
+}
 <header id="header" class="header has-sticky sticky-jump">
     <div class="header-wrapper">
         <div id="masthead" class="header-main hide-for-sticky">
-            <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+            <div class="header-inner flex-row container  medium-logo-center" role="navigation">
                 <div id="logo" class="flex-col logo">
                     @Html.Raw(AllQuery.Banner.Banners())
                 </div>
@@ -37,7 +50,7 @@
                 }
                 else
                 {
-                  
+                    <li><a style=" color:#fff; font-weight:bold; font-size:14px;"><i class="fa fa-user"></i> @MoreAll.MoreAll.GetCookies("MembersUser").ToString()</a></li>
                     <li><a href="/wallet.html"><i style="color: #ff1a1a; " class="fa fa-credit-card"></i> Ví tiền</a></li>
                     <li><a href="/lich-su-hoa-hong.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Lịch sử hoa hồng</a></li>
                     <li><a href="/rut-tien.html"><i style="color: #ff1a1a" class="fa fa-plus-circle"></i> Thanh toán</a></li>
@@ -57,15 +70,19 @@
     @if (MoreAll.MoreAll.GetCookies("Members").ToString() == "")
     {
         <div class="header-button header-dangtin ">
-            <a href="/Dang-nhap.html?ReturnUrl=@Request.RawUrl.ToString()" class="button primary">
-                <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng tin miễn phí</span>
+            <a href="/Dang-ky.html" class="button primary">
+                <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng ký</span>
             </a>
+            <a href="/Dang-nhap.html" class="button primary">
+                <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Đăng nhập</span>
+            </a>
+
         </div>
     }
     else
     {
         <div class="header-dangnhapMB ">
-            <a onclick="ShowthanhvienMB()"><i class="fa fa-user"></i> @MoreAll.MoreAll.GetCookies("MembersUser").ToString() - </a>
+            <a onclick="ShowthanhvienMB()" style=" color:red; font-weight:bold; font-size:14px;"><i class="fa fa-user"></i> Xin chào :  @MoreAll.MoreAll.GetCookies("MembersUser").ToString() - </a>
             <a style="color:#ed1c24" href="/Members/Thoat"> <i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a>
             <div id="ShowthanhvienMB" class="ThanhVienMobile" style=" display:none">
                 <ul>

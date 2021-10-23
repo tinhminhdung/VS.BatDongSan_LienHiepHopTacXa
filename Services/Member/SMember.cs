@@ -102,6 +102,10 @@ namespace Services
         {
             return db.Name_Text(Name_Text);
         }
+        public static List<SumMember> Name_SumMember(string Name_Text)
+        {
+            return db.Name_SumMember(Name_Text);
+        }
         #endregion
     }
 }

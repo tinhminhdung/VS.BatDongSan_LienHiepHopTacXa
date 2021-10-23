@@ -6,6 +6,11 @@
 <script src="/Resources/ScripMvc/ThongBao.js"></script>
 }
 
+<style>
+    h1.title-head {
+        text-align: center;
+    }
+</style>
 @{Html.RenderAction("Nav_conten", "My_Partialview");}
 @using (Html.BeginForm("HoSoThanhVien", "Members", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {

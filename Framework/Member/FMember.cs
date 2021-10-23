@@ -875,6 +875,25 @@ namespace Framework
                 conn.Close();
             }
         }
+        public List<SumMember> Name_SumMember(string Name_Text)
+        {
+            SqlConnection conn = Database.Connection();
+            SqlCommand comm = new SqlCommand(Name_Text, conn);
+            comm.CommandType = CommandType.Text;
+            try
+            {
+                return Database.Bind_List_Reader<SumMember>(comm);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        
         #endregion
     }
 }

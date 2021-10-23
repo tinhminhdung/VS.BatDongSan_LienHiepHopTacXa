@@ -280,11 +280,11 @@ namespace VS.ECommerce_MVC.Controllers
             }
             if (Request.RawUrl.Contains("Dang-ky.html"))
             {
-                strReturn += "<li><a href=\"/Dang-ky.html\">" + Commond.label("Thanhvien") + "</a></li>";
+                strReturn += "<li><a href=\"/Dang-ky.html\">Đăng ký</a></li>";
             }
             if (Request.RawUrl.Contains("Dang-nhap.html"))
             {
-                strReturn += "<li><a href=\"/Dang-nhap.html\">" + Commond.label("l_login") + "</a></li>";
+                strReturn += "<li><a href=\"/Dang-nhap.html\">Đăng nhập</a></li>";
             }
             if (Request.RawUrl.Contains("doi-mat-khau.html"))
             {

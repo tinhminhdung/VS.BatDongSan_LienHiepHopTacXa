@@ -67,6 +67,24 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember {
         protected global::System.Web.UI.WebControls.TextBox Nhanvien;
         
         /// <summary>
+        /// NhanVienTimRa1F1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NhanVienTimRa1F1;
+        
+        /// <summary>
+        /// NhanVienTongTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NhanVienTongTien;
+        
+        /// <summary>
         /// TruongNhomKinhDoanh control.
         /// </summary>
         /// <remarks>
@@ -74,6 +92,24 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TruongNhomKinhDoanh;
+        
+        /// <summary>
+        /// TruongNhomKDTongTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TruongNhomKDTongTien;
+        
+        /// <summary>
+        /// TruongNhomKDF1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TruongNhomKDF1;
         
         /// <summary>
         /// TruongPhongKinhDoanh control.
@@ -85,6 +121,24 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember {
         protected global::System.Web.UI.WebControls.TextBox TruongPhongKinhDoanh;
         
         /// <summary>
+        /// TruongPhongKinhDoanhTongTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TruongPhongKinhDoanhTongTien;
+        
+        /// <summary>
+        /// TruongPhongKinhDoanhF1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TruongPhongKinhDoanhF1;
+        
+        /// <summary>
         /// PhoGiamDoc control.
         /// </summary>
         /// <remarks>
@@ -94,6 +148,24 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember {
         protected global::System.Web.UI.WebControls.TextBox PhoGiamDoc;
         
         /// <summary>
+        /// PhoGiamDocTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PhoGiamDocTien;
+        
+        /// <summary>
+        /// PhoGiamDocF1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PhoGiamDocF1;
+        
+        /// <summary>
         /// GiamDocKinhDoanh control.
         /// </summary>
         /// <remarks>
@@ -101,6 +173,24 @@ namespace VS.ECommerce_MVC.cms.Admin.MMember {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox GiamDocKinhDoanh;
+        
+        /// <summary>
+        /// GiamDocKinhDoanhTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GiamDocKinhDoanhTien;
+        
+        /// <summary>
+        /// GiamDocKinhDoanhF1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GiamDocKinhDoanhF1;
         
         /// <summary>
         /// btnsetup control.

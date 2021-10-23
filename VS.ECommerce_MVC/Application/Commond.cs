@@ -16,17 +16,49 @@ public class Commond
     {
         if (status.Equals("1"))
         {
-            return "<span class='ShowCapbac1'>Trưởng Nhóm<br> Kinh Doanh</span>";
+            return "<span class='ShowCapbac1'>Nhân viên</span>";
         }
         else if (status.Equals("2"))
         {
-            return "<span class='ShowCapbac2'>Trưởng Phòng<br> Kinh Doanh</span>";
+            return "<span class='ShowCapbac2'>Trưởng nhóm kinh doanh</span>";
         }
         else if (status.Equals("3"))
         {
-            return "<span class='ShowCapbac3'>Giám Đốc<br> Kinh Doanh</span>";
+            return "<span class='ShowCapbac3'>Trưởng phòng kinh doanh</span>";
         }
-        return "<span class='chuakh'>Thành Viên</span>";
+        else if (status.Equals("4"))
+        {
+            return "<span class='ShowCapbac4'>Phó giám đốc</span>";
+        }
+        else if (status.Equals("5"))
+        {
+            return "<span class='ShowCapbac5'>Giám đốc kinh doanh</span>";
+        }
+        return "<span class='chuakh'>Cộng tác viên</span>";
+    }
+    public static string ShowCapbacView(string status)
+    {
+        if (status.Equals("1"))
+        {
+            return "<div class='ShowCapbac1'>Nhân viên</div>";
+        }
+        else if (status.Equals("2"))
+        {
+            return "<div class='ShowCapbac2'>Trưởng nhóm kinh doanh</div>";
+        }
+        else if (status.Equals("3"))
+        {
+            return "<div class='ShowCapbac3'>Trưởng phòng kinh doanh</div>";
+        }
+        else if (status.Equals("4"))
+        {
+            return "<div class='ShowCapbac4'>Phó giám đốc</div>";
+        }
+        else if (status.Equals("5"))
+        {
+            return "<div class='ShowCapbac5'>Giám đốc kinh doanh</div>";
+        }
+        return "<div class='chuakh'>Cộng tác viên</div>";
     }
 
     public static string ShowMTree(string id)
@@ -90,14 +122,31 @@ public class Commond
         if (dt.Count >= 1)
         {
             str += "<span id=" + dt[0].ID.ToString() + " style=\" color:red\">";
-            if (dt[0].HoVaTen.ToString().Length > 0)
+            if (dt[0].HoVaTen.ToString().Length > 0) 
             {
-                str += "<a target=\"_blank\" href=\"/admin.aspx?u=Thanhvien&IDThanhVien=" + dt[0].ID.ToString() + "\"><span style='color:red'>" + dt[0].HoVaTen + "</span></a>";
+                str += "<a target=\"_blank\" href=\"/admin.aspx?u=Thanhvien&IDThanhVien=" + dt[0].ID.ToString() + "\"><span style='color:red'>" + dt[0].HoVaTen + " [Level " + dt[0].CapBac + "]" + "</span></a>";
             }
             str += "</span><br>";
             if (dt[0].DienThoai.ToString().Length > 0)
             {
                 str += dt[0].DienThoai;
+            }
+        }
+        else
+        {
+            str = "Không tìm thấy thành viên";
+        }
+        return str;
+    }
+    public static string ShowThanhVien_Member(string id)
+    {
+        string str = "";
+        List<Entity.Member> dt = SMember.GET_BY_ID(id);
+        if (dt.Count >= 1)
+        {
+            if (dt[0].HoVaTen.ToString().Length > 0)
+            {
+                str += "<a target=\"_blank\" href=\"/admin.aspx?u=Thanhvien&IDThanhVien=" + dt[0].ID.ToString() + "\"><span style='color:#008bca'>" + dt[0].HoVaTen + " [Level " + dt[0].CapBac + "]" + "</span></a>";
             }
         }
         else

@@ -29,6 +29,9 @@ namespace Entity
         private int _CapBac;
         private int _ThuPhi;
         private int _DaBanDuocSanPham;
+        private string _IDLuuTam;
+        private string _TongTienDaMua;
+
 
         #endregion
 
@@ -53,6 +56,14 @@ namespace Entity
         public int CapBac { get { return _CapBac; } set { _CapBac = value; } }
         public int ThuPhi { get { return _ThuPhi; } set { _ThuPhi = value; } }
         public int DaBanDuocSanPham { get { return _DaBanDuocSanPham; } set { _DaBanDuocSanPham = value; } }
+        public string IDLuuTam { get { return _IDLuuTam; } set { _IDLuuTam = value; } }
+        public string TongTienDaMua { get { return _TongTienDaMua; } set { _TongTienDaMua = value; } }
+       
         #endregion
     }
+    public class SumMember
+    {
+        public string SUMTongTienDaMua { get; set; }
+    }
+    
 }

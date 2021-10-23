@@ -140,7 +140,7 @@ i.icon-menu { color: #fff !important; }
 .page-wrapper { padding-top: 10px; padding-bottom: 10px; }
 img.attachment-thumbnail.size-thumbnail { height: 50px; }
 .tongtrang { width: 100%; margin: auto; }
-.col-xs-6.col-sm-12.col-md-3.vithanhtoan { width: 45%; display: inline-block; margin: 7px; }
+.col-xs-6.col-sm-12.col-md-3.vithanhtoan { width: 100%; display: inline-block; margin: 7px; }
 
 .Loctimkiem select {float: none;width: 100%;margin-right: 0px;height: 39px;border-radius: 3px;margin-top:5px;}
 .Loctimkiem #datepicker {float: none;width: 100%;margin-right: 0px;margin: 0px; margin-top:5px;}
@@ -154,7 +154,7 @@ section#awe-section-4 .col-xs-6.col-xss-6.col-sm-4.col-md-3.col-lg-3 { padding: 
 .form-signup.clearfix { padding: 0px; }
 .col-lg-12.coldangky { margin-left: 0px; }
 .alert-danger { margin-left:5px; }
-
+.main-item.total-point { margin: auto; background: #7cbfdd; display: table; width: 90%; padding: 10px; border-radius: 3px; }
 }
 
 

@@ -55,14 +55,14 @@
                                             runat="server" OnSelectedIndexChanged="ddlkieu_SelectedIndexChanged">
                                             <asp:ListItem Value="0">Tất cả loại Hoa Hồng</asp:ListItem>
                                             <asp:ListItem Value="1">Hoa hồng Người Bán Hàng</asp:ListItem>
-                                            <asp:ListItem Value="2">Hoa hồng người tuyển dụng</asp:ListItem>
-                                            <asp:ListItem Value="3">Hoa hồng Văn Phòng Chi Nhánh</asp:ListItem>
-                                            <asp:ListItem Value="4">Hoa hồng Ban Đào Tạo</asp:ListItem>
-                                            <asp:ListItem Value="5">Hoa hồng Ban Điều hành</asp:ListItem>
+                                            <asp:ListItem Value="10">Hoa hồng cấp bậc</asp:ListItem>
+                                            <asp:ListItem Value="3">Văn Phòng</asp:ListItem>
+                                            <asp:ListItem Value="4">Đồng hưởng</asp:ListItem>
+                                    <%--        <asp:ListItem Value="5">Hoa hồng Ban Điều hành</asp:ListItem>
                                             <asp:ListItem Value="6">Hoa hồng Người Khai Thác</asp:ListItem>
                                             <asp:ListItem Value="7">Hoa hồng Trưởng Nhóm Kinh Doanh</asp:ListItem>
                                             <asp:ListItem Value="8">Hoa hồng Trưởng Phòng Kinh Doanh</asp:ListItem>
-                                            <asp:ListItem Value="9">Hoa hồng Giám Đốc Kinh Doanh</asp:ListItem>
+                                            <asp:ListItem Value="9">Hoa hồng Giám Đốc Kinh Doanh</asp:ListItem>--%>
                                         </asp:DropDownList>
                                         <asp:TextBox Style="width: 200px;" ID="txtNgayThangNam" placeholder="Tìm kiếm từ ngày/tháng/năm" AutoPostBack="true" OnTextChanged="txtNgayThangNam_TextChanged" runat="server" CssClass="txt_csssearch" Width="200px"></asp:TextBox>
                                         <cc1:CalendarExtender ID="CalendarExtender1" Format="dd/MM/yyyy" runat="server" TargetControlID="txtNgayThangNam"></cc1:CalendarExtender>
@@ -133,7 +133,7 @@
                                                         <%#DataBinder.Eval(Container.DataItem,"PhanTram")%> %
                                                     </td>
                                                     <td style="text-align: center;">
-                                                        <%#AllQuery.MorePro.FormatMoney(Eval("SoTienDuocHuong").ToString())%>
+                                                        <%#AllQuery.MorePro.FormatMoney_Cart(Eval("SoTienDuocHuong").ToString())%>
                                                     </td>
                                                     <td style="text-align: center;">
                                                         <%#MoreAll.FormatDateTime.FormatDate_Brithday(DataBinder.Eval(Container.DataItem,"NgayTao"))%> 
